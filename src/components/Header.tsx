@@ -61,26 +61,25 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
         <div className="flex items-center justify-between h-20">
           
           {/* Logo & Institute Identity */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-12 h-12 flex-shrink-0 bg-white">
+          <Link href="/" className="flex items-center gap-3 group flex-shrink-0 py-1">
+            <div className="relative h-12 w-56 sm:w-72 md:w-80 flex-shrink-0">
               <Image
-                src="/images/logo.webp"
-                alt="IIIT Dharwad Logo"
+                src="/images/iiitdwd_logo_transparent.png"
+                alt="Indian Institute of Information Technology Dharwad"
                 fill
-                className="object-contain"
+                className="object-contain object-left group-hover:opacity-95 transition-opacity"
                 priority
               />
             </div>
-            <div>
-              <div className="font-bold text-lg text-[#193654] font-grotesk tracking-tight leading-tight group-hover:text-[#14293f] transition-colors">
-                IIIT Dharwad
+            <div className="hidden xl:flex items-center pl-3 border-l border-slate-300">
+              <div>
+                <div className="text-xs font-bold text-[#8b1c2e] uppercase tracking-wider font-grotesk leading-tight">
+                  Executive M.Tech
+                </div>
+                <div className="text-[10px] text-slate-500 font-medium font-roboto">
+                  Continuing Education
+                </div>
               </div>
-              <div className="text-xs text-[#8b1c2e] font-semibold tracking-wide uppercase">
-                Online M.Tech in CSE
-              </div>
-              <p className="text-[11px] text-slate-500 hidden sm:block">
-                For Working Professionals
-              </p>
             </div>
           </Link>
 

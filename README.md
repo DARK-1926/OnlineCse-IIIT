@@ -1,6 +1,6 @@
-# IIIT Dharwad — Executive M.Tech (Online CSE) Portal
+# IIIT Dharwad — Hybrid mode M.Tech in CSE Portal
 
-A dedicated, self-contained Next.js application replicating and modernizing the Online M.Tech in Computer Science and Engineering portal (`https://onlinecse.iiitdwd.ac.in`) with custom visual identity and enhanced features to prevent copyright conflicts.
+A dedicated, self-contained Next.js application replicating and modernizing the Hybrid mode M.Tech in CSE portal (`https://onlinecse.iiitdwd.ac.in`) with custom visual identity and enhanced features to prevent copyright conflicts.
 
 ## 🚀 Key Features
 

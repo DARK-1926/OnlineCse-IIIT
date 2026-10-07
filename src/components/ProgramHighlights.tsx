@@ -51,8 +51,8 @@ export default function ProgramHighlights() {
     },
     {
       icon: Laptop,
-      title: "Flexible Online Learning",
-      desc: "Synchronous live weekend lectures paired with 24/7 digital LMS recordings and self-paced assignments designed for working professionals.",
+      title: "Flexible Hybrid Learning",
+      desc: "Synchronous live weekend lectures and hands-on campus lab immersion, paired with 24/7 digital LMS recordings and self-paced assignments.",
     },
     {
       icon: GraduationCap,
@@ -79,7 +79,7 @@ export default function ProgramHighlights() {
             Distinctive Educational Features
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Why leading tech professionals across India choose the IIIT Dharwad Executive M.Tech:
+            Why leading tech professionals across India choose the IIIT Dharwad Hybrid mode M.Tech in CSE:
           </p>
         </div>
 

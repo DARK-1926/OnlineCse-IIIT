@@ -5,8 +5,8 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 
 export const metadata = {
-  title: "About IIIT Dharwad | Online M.Tech in CSE",
-  description: "Learn about the Indian Institute of Information Technology Dharwad (Institute of National Importance), our faculty, campus, and executive postgraduate programs."
+  title: "About IIIT Dharwad | Hybrid mode M.Tech in CSE",
+  description: "Learn about the Indian Institute of Information Technology Dharwad (Institute of National Importance), our faculty, campus, and Hybrid mode postgraduate programs."
 };
 
 export default function AboutPage() {
@@ -105,7 +105,7 @@ export default function AboutPage() {
                   Centre for Continuing Education (CEP)
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-                  The Centre for Continuing Education at IIIT Dharwad was established to extend the institute’s academic and technological capabilities to India&apos;s working engineering workforce. Through structured weekend degree programs like the Online M.Tech in CSE, software engineers can elevate their theoretical depth and master specialized computing disciplines without stepping away from full-time employment.
+                  The Centre for Continuing Education at IIIT Dharwad was established to extend the institute’s academic and technological capabilities to India&apos;s working engineering workforce. Through structured weekend degree programs like the Hybrid mode M.Tech in CSE, software engineers can elevate their theoretical depth and master specialized computing disciplines without stepping away from full-time employment.
                 </p>
                 <div className="pt-2">
                   <Link

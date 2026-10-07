@@ -6,7 +6,7 @@ export default function NewsPressSection() {
   const news = [
     {
       img: "/images/news_indian_express.jpg",
-      title: "IIIT Dharwad Launches Online M.Tech in CSE with Specialisations in AI & ML, Cybersecurity & Cloud Computing",
+      title: "IIIT Dharwad Launches Hybrid mode M.Tech in CSE with Specialisations in AI & ML, Cybersecurity & Cloud Computing",
       source: "The Indian Express",
       link: "https://indianexpress.com/article/education/online-mtech-course-aiml-cybersecurity-cloud-computing-jeemain-2026-advanced-10482423/",
     },
@@ -37,7 +37,7 @@ export default function NewsPressSection() {
             In the News
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Coverage and announcements about our executive program across national media and press:
+            Coverage and announcements about our Hybrid mode M.Tech in CSE program across national media and press:
           </p>
         </div>
 

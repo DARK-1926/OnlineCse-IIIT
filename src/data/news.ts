@@ -11,7 +11,7 @@ export interface NewsItem {
 export const newsArticles: NewsItem[] = [
   {
     id: "news-1",
-    title: "IIIT Dharwad Launches Online M.Tech in CSE with Specialisations in AI & ML, Cybersecurity and Cloud Computing",
+    title: "IIIT Dharwad Launches Hybrid mode M.Tech in CSE with Specialisations in AI & ML, Cybersecurity and Cloud Computing",
     source: "The Indian Express",
     date: "January 2026",
     excerpt: "IIIT Dharwad has introduced a new flexible postgraduate degree program tailored for working tech professionals seeking domain mastery in artificial intelligence, cloud infrastructure, and cybersecurity.",
@@ -20,7 +20,7 @@ export const newsArticles: NewsItem[] = [
   },
   {
     id: "news-2",
-    title: "Executive Education Revolution: How IIIT Dharwad Blends Weekend Virtual Classes with Campus Immersion",
+    title: "Executive Education Revolution: How IIIT Dharwad Blends Weekend Virtual Classes with Campus Immersion in Hybrid M.Tech",
     source: "EdTech Insights",
     date: "February 2026",
     excerpt: "Featuring in-depth mentorship by doctoral faculty and on-campus laboratories, the newly unveiled degree enables software engineers to upskill without pausing full-time employment.",

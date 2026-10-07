@@ -7,16 +7,17 @@ const siteUrl = "https://onlinecse.iiitdwd.ac.in";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Executive M.Tech in CSE | IIIT Dharwad | Online & Immersion",
-    template: "%s | IIIT Dharwad Executive M.Tech",
+    default: "Hybrid mode M.Tech in CSE | IIIT Dharwad",
+    template: "%s | IIIT Dharwad Hybrid mode M.Tech in CSE",
   },
   description:
-    "Official Executive M.Tech in Computer Science & Engineering from IIIT Dharwad (Institute of National Importance). World-class specializations in AI & Machine Learning, Cybersecurity, and Cloud Systems. Tailored for working tech professionals with weekend live classes and 7-day campus immersion.",
+    "Official Hybrid mode M.Tech in CSE from IIIT Dharwad (Institute of National Importance). World-class specializations in AI & Machine Learning, Cybersecurity, and Cloud Systems. Tailored for working tech professionals with weekend live classes and 7-day campus immersion.",
   keywords: [
     "IIIT Dharwad",
-    "Executive M.Tech CSE",
-    "Online M.Tech Computer Science",
-    "IIIT Dharwad Online CSE",
+    "Hybrid mode M.Tech in CSE",
+    "Hybrid M.Tech CSE",
+    "M.Tech Computer Science",
+    "IIIT Dharwad Hybrid CSE",
     "M.Tech in AI and ML",
     "M.Tech Cybersecurity India",
     "M.Tech Cloud Computing DevOps",
@@ -36,11 +37,11 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   openGraph: {
-    title: "Executive M.Tech in CSE | IIIT Dharwad | For Working Professionals",
+    title: "Hybrid mode M.Tech in CSE | IIIT Dharwad | For Working Professionals",
     description:
       "Transform your career with an Institute of National Importance degree. 60 Academic Credits, 3 In-Demand Tracks (AI/ML, Cyber, Cloud), Live Masterclasses & 7-Day Campus Residency.",
     url: siteUrl,
-    siteName: "IIIT Dharwad Online M.Tech CSE",
+    siteName: "IIIT Dharwad Hybrid mode M.Tech in CSE",
     images: [
       {
         url: "/images/campus_building_hero.jpg",
@@ -54,9 +55,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Executive M.Tech in Computer Science & Engineering | IIIT Dharwad",
+    title: "Hybrid mode M.Tech in CSE | IIIT Dharwad",
     description:
-      "2-Year Executive Degree for Working Engineers. Specializations in AI/ML, Cybersecurity & Cloud Architecture.",
+      "2-Year Hybrid Mode Degree for Working Engineers. Specializations in AI/ML, Cybersecurity & Cloud Architecture.",
     images: ["/images/campus_building_hero.jpg"],
   },
   robots: {
@@ -148,7 +149,7 @@ const jsonLdFaq = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Is the Executive M.Tech from IIIT Dharwad a recognized Master's degree?",
+      "name": "Is the Hybrid mode M.Tech in CSE from IIIT Dharwad a recognized Master's degree?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. IIIT Dharwad is an Institute of National Importance established by an Act of Parliament (Ministry of Education, Govt. of India). The M.Tech awarded is a full, recognized Master of Technology postgraduate degree equivalent to on-campus degrees and eligible for higher studies (Ph.D.) and global enterprise roles.",
@@ -175,7 +176,7 @@ const jsonLdFaq = {
       "name": "Are flexible EMI and corporate fee sponsorship options available?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. 0% interest monthly installment plans (EMIs starting at ₹12,000/month) and corporate sponsorship tax benefit invoices are available for enrolled candidates.",
+        "text": "Yes. 0% interest monthly installment plans (EMIs starting at ₹11,000/month) and corporate sponsorship tax benefit invoices are available for enrolled candidates.",
       },
     },
   ],

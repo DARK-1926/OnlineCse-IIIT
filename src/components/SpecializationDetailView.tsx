@@ -57,7 +57,7 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
 
           <div className="max-w-3xl space-y-3">
             <div className="inline-block bg-[#CCE70B]/15 text-[#CCE70B] border border-[#CCE70B]/30 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider font-mono">
-              M.Tech in Computer Science & Engineering
+              Hybrid mode M.Tech in CSE
             </div>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight font-grotesk">
               Specialization in {data.shortName}
@@ -77,7 +77,7 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
               </div>
               <div className="bg-[#193654]/90 p-3 rounded border border-slate-700">
                 <span className="text-slate-400 block text-[11px]">Delivery</span>
-                <span className="font-bold text-white">Weekend Live</span>
+                <span className="font-bold text-white">Hybrid Mode</span>
               </div>
               <div className="bg-[#193654]/90 p-3 rounded border border-slate-700">
                 <span className="text-slate-400 block text-[11px]">Campus Immersion</span>

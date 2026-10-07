@@ -44,7 +44,7 @@ export default function SpecializationsSection() {
             Specializations Offered
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Tailor your M.Tech degree in one of three high-demand technology domains:
+            Tailor your Hybrid mode M.Tech in CSE in one of three high-demand technology domains:
           </p>
         </div>
 

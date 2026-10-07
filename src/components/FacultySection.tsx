@@ -10,7 +10,7 @@ export default function FacultySection() {
     },
     {
       name: "Dr. Krishnendu Ghosh",
-      role: "Program Coordinator, Online M.Tech",
+      role: "Program Coordinator, Hybrid mode M.Tech in CSE",
       qual: "Assistant Professor, CSE",
       area: "Distributed Systems, Cloud Architecture, High Performance Computing",
     },

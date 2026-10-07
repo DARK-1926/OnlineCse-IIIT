@@ -21,7 +21,7 @@ export default function MasterCurriculumPage() {
               Course Structure & Syllabus
             </span>
             <h1 className="text-3xl sm:text-4xl font-extrabold text-white font-grotesk tracking-tight">
-              Curriculum for M.Tech in Computer Science & Engineering
+              Curriculum for Hybrid mode M.Tech in CSE
             </h1>
             <p className="text-slate-300 text-sm leading-relaxed font-roboto">
               Spread across 4 semesters (60 total credits), combining foundational computing courses, elective specialization deep-dives, lab coursework, and an extensive Capstone Dissertation.

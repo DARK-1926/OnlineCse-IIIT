@@ -10,11 +10,11 @@ function formatInr(num: number): string {
 
 export default function FeeAndEmiSection() {
   const [tenure, setTenure] = useState<number>(36);
-  const [downPayment, setDownPayment] = useState<number>(35400); // 10% standard booking
+  const [downPayment, setDownPayment] = useState<number>(44250); // 10% standard booking
   const taxSlab = 30; // 30% tax bracket
 
   // Fee Details
-  const totalFee = 354000;
+  const totalFee = 442500;
 
   // Financed amount after down payment
   const loanPrincipal = Math.max(0, totalFee - downPayment);
@@ -55,7 +55,7 @@ export default function FeeAndEmiSection() {
                 </span>
                 <div className="flex items-baseline gap-2 mt-1">
                   <span className="text-3xl sm:text-4xl font-extrabold text-[#193654] font-grotesk">
-                    ₹ 88,500
+                    ₹ 1,10,625
                   </span>
                   <span className="text-xs text-slate-500 font-medium font-roboto">
                     / semester (4 Semesters)
@@ -64,7 +64,7 @@ export default function FeeAndEmiSection() {
               </div>
               <div className="text-left sm:text-right">
                 <span className="text-[11px] text-slate-400 font-mono uppercase block">Total Course Fee</span>
-                <span className="text-base font-bold text-emerald-700 font-grotesk">₹ 3,54,000 (All-Inclusive)</span>
+                <span className="text-base font-bold text-emerald-700 font-grotesk">₹ 4,42,500 (All-Inclusive)</span>
               </div>
             </div>
 

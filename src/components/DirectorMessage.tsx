@@ -12,10 +12,10 @@ export default function DirectorMessage() {
               // LEADERSHIP PERSPECTIVE
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#193654] leading-tight font-grotesk">
-              IIIT Dharwad’s Online M.Tech: Insights from the Director
+              IIIT Dharwad’s Hybrid mode M.Tech in CSE: Insights from the Director
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-              Get an insider’s view from Prof. S R Mahadeva Prasanna, Director – IIIT Dharwad, as he breaks down what the Online M.Tech in Computer Science & Engineering truly offers to working engineers across India.
+              Get an insider’s view from Prof. S R Mahadeva Prasanna, Director – IIIT Dharwad, as he breaks down what the Hybrid mode M.Tech in CSE truly offers to working engineers across India.
             </p>
             <div className="pt-2">
               <div className="font-bold text-[#193654] text-sm font-grotesk">

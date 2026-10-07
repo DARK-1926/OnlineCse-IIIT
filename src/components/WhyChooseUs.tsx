@@ -50,8 +50,8 @@ export default function WhyChooseUs() {
     },
     {
       icon: Laptop,
-      title: "Flexible Online Learning",
-      desc: "Balanced live weekend interactive virtual classes with on-demand recorded session archives, allowing you to learn without disrupting your full-time job.",
+      title: "Flexible Hybrid Learning",
+      desc: "Balanced live weekend interactive virtual classes with on-demand recorded session archives and on-campus lab residency, allowing you to learn without disrupting your full-time job.",
     },
     {
       icon: GraduationCap,

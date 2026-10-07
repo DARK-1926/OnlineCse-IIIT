@@ -40,7 +40,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
             {/* Main Title & Subtitle */}
             <div className="space-y-3">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.15] tracking-tight font-grotesk">
-                Executive M.Tech in Computer Science & Engineering
+                Hybrid mode M.Tech in CSE
               </h1>
               <p className="text-sm sm:text-base font-medium text-[#CCE70B] font-roboto">
                 Specializations in Artificial Intelligence & ML, Cloud Systems & DevOps, and Cybersecurity
@@ -57,7 +57,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
                 <div className="text-xs text-slate-300 mt-0.5">4 Semesters (60 Credits)</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-[#CCE70B] font-grotesk">₹ 88,500</div>
+                <div className="text-2xl font-bold text-[#CCE70B] font-grotesk">₹ 1,10,625</div>
                 <div className="text-xs text-slate-300 mt-0.5">Per Semester • 0% EMI</div>
               </div>
               <div>

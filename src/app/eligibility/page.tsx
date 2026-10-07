@@ -4,9 +4,9 @@ import InquiryForm from "@/components/InquiryForm";
 import { CheckCircle2, FileCheck } from "lucide-react";
 
 export const metadata = {
-  title: "Eligibility Criteria & Selection Process | Online M.Tech CSE",
+  title: "Eligibility Criteria & Selection Process | Hybrid mode M.Tech in CSE",
   description:
-    "Check qualification requirements, percentage thresholds, and work experience criteria for admission to the Executive M.Tech in Computer Science & Engineering at IIIT Dharwad.",
+    "Check qualification requirements, percentage thresholds, and work experience criteria for admission to the Hybrid mode M.Tech in CSE at IIIT Dharwad.",
 };
 
 export default function EligibilityPage() {

@@ -74,7 +74,7 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
             <div className="hidden xl:flex items-center pl-3 border-l border-slate-300">
               <div>
                 <div className="text-xs font-bold text-[#8b1c2e] uppercase tracking-wider font-grotesk leading-tight">
-                  Executive M.Tech
+                  Hybrid mode M.Tech in CSE
                 </div>
                 <div className="text-[10px] text-slate-500 font-medium font-roboto">
                   Continuing Education

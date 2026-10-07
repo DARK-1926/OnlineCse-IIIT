@@ -61,7 +61,7 @@ export async function POST(request: Request) {
         specialization,
         downloadReady: true,
         fileInfo: {
-          title: "IIIT Dharwad Executive M.Tech in CSE - Comprehensive Prospectus 2026",
+          title: "IIIT Dharwad Hybrid mode M.Tech in CSE - Comprehensive Prospectus 2026",
           credits: 60,
           semesters: 4,
           format: "PDF Document (Official CCE Release)",

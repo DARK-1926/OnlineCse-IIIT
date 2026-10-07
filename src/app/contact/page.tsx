@@ -3,9 +3,9 @@ import { Phone, Mail, MapPin, Clock, ExternalLink } from "lucide-react";
 import InquiryForm from "@/components/InquiryForm";
 
 export const metadata = {
-  title: "Contact Admissions Helpline | Online M.Tech CSE | IIIT Dharwad",
+  title: "Contact Admissions Helpline | Hybrid mode M.Tech in CSE | IIIT Dharwad",
   description:
-    "Contact the IIIT Dharwad Executive M.Tech Admissions Office. Phone helpline numbers, email address, campus address in Dharwad, and office visiting hours.",
+    "Contact the IIIT Dharwad Hybrid mode M.Tech in CSE Admissions Office. Phone helpline numbers, email address, campus address in Dharwad, and office visiting hours.",
 };
 
 export default function ContactPage() {

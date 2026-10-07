@@ -48,7 +48,7 @@ export default function CareerPossibilities() {
             Unlock Endless Career Possibilities
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            The Executive M.Tech prepares you for senior technical, research, and leadership roles:
+            The Hybrid mode M.Tech in CSE prepares you for senior technical, research, and leadership roles:
           </p>
         </div>
 

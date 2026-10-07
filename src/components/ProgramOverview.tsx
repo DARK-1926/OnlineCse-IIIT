@@ -6,12 +6,12 @@ export default function ProgramOverview() {
     {
       icon: Clock,
       label: "Course Duration",
-      value: "2 years (Online + Campus Immersion)",
+      value: "2 years (Hybrid Mode: Online + Campus Immersion)",
     },
     {
       icon: IndianRupee,
       label: "Semester Fees",
-      value: "₹ 88,500 (Easy EMI options Available)",
+      value: "₹ 1,10,625 (Easy EMI options Available)",
     },
     {
       icon: Laptop,
@@ -36,10 +36,10 @@ export default function ProgramOverview() {
               // PROGRAM ARCHITECTURE
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#193654] tracking-tight font-grotesk">
-              M.Tech in Computer Science & Engineering
+              Hybrid mode M.Tech in CSE
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed font-roboto pt-2">
-              The M.Tech in Computer Science & Engineering is a two-year postgraduate programme designed to strengthen advanced computing foundations, software engineering expertise, and research-oriented problem-solving skills.
+              The Hybrid mode M.Tech in CSE is a two-year postgraduate programme designed to strengthen advanced computing foundations, software engineering expertise, and research-oriented problem-solving skills.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed font-roboto">
               The programme combines core computer science theory, advanced computing laboratories, research methodology, and industry-aligned projects to prepare learners for complex technical and research-driven roles across the technology ecosystem. Through a structured elective framework, learners gain exposure to emerging computing domains, enabling them to tailor their learning while graduating with an esteemed degree from an Institute of National Importance.

@@ -11,7 +11,7 @@ export interface NewsItem {
 export const newsArticles: NewsItem[] = [
   {
     id: "news-1",
-    title: "IIIT Dharwad Launches Hybrid mode M.Tech in CSE with Specialisations in AI & ML, Cybersecurity and Cloud Computing",
+    title: "IIIT Dharwad Launches M.Tech in CSE with Specialisations in AI & ML, Cybersecurity and Cloud Computing",
     source: "The Indian Express",
     date: "January 2026",
     excerpt: "IIIT Dharwad has introduced a new flexible postgraduate degree program tailored for working tech professionals seeking domain mastery in artificial intelligence, cloud infrastructure, and cybersecurity.",

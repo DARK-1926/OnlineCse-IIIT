@@ -40,7 +40,7 @@ export default function EligibilitySection() {
   } else if (!isExpValid) {
     statusBadge = {
       title: "Experience Threshold Notice",
-      desc: "Hybrid mode M.Tech in CSE candidates typically require 1+ year of technical work experience by the cohort start date.",
+      desc: "M.Tech in CSE candidates typically require 1+ year of technical work experience by the cohort start date.",
       color: "amber",
     };
   }
@@ -59,7 +59,7 @@ export default function EligibilitySection() {
             Admission Eligibility Guidelines
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto leading-relaxed">
-            The Hybrid mode M.Tech in CSE program maintains rigorous academic standards while offering flexible learning schedules for software engineers:
+            The M.Tech in CSE program maintains rigorous academic standards while offering flexible hybrid learning schedules for software engineers:
           </p>
         </div>
 

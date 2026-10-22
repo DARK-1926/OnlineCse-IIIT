@@ -40,13 +40,13 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
             {/* Main Title & Subtitle */}
             <div className="space-y-3">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.15] tracking-tight font-grotesk">
-                Hybrid mode M.Tech in CSE
+                M.Tech in CSE
               </h1>
               <p className="text-sm sm:text-base font-medium text-[#CCE70B] font-roboto">
                 Specializations in Artificial Intelligence & ML, Cloud Systems & DevOps, and Cybersecurity
               </p>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-roboto pt-1 max-w-2xl">
-                A two-year Master of Technology degree tailored for working software engineers and technology leaders. Build deep systems expertise through live weekend faculty sessions and an on-campus laboratory residency at IIIT Dharwad.
+                A two-year Master of Technology degree offered in flexible hybrid mode, tailored for working software engineers and technology leaders. Build deep systems expertise through live weekend faculty sessions and an on-campus laboratory residency at IIIT Dharwad.
               </p>
             </div>
 

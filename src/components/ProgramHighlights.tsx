@@ -79,7 +79,7 @@ export default function ProgramHighlights() {
             Distinctive Educational Features
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Why leading tech professionals across India choose the IIIT Dharwad Hybrid mode M.Tech in CSE:
+            Why leading tech professionals across India choose the IIIT Dharwad M.Tech in CSE:
           </p>
         </div>
 

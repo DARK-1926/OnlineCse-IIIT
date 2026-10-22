@@ -12,12 +12,13 @@ export default function Footer() {
           
           {/* Col 1: Institute Brand & Identity */}
           <div className="space-y-4">
-            <div className="relative h-12 w-64 max-w-full">
+            <div className="h-14 lg:h-12 w-fit">
               <Image
-                src="/images/iiitdwd_logo_white.png"
-                alt="Indian Institute of Information Technology Dharwad"
-                fill
-                className="object-contain object-left"
+                src="/images/FooterLogo.webp"
+                alt="IIIT Dharwad Logo"
+                width={250}
+                height={250}
+                className="h-14 lg:h-12 w-auto object-contain object-left"
               />
             </div>
             <div className="inline-block bg-[#CCE70B]/15 text-[#CCE70B] border border-[#CCE70B]/30 text-[10px] font-semibold px-2.5 py-0.5 rounded font-mono uppercase tracking-wider">
@@ -29,7 +30,8 @@ export default function Footer() {
             </p>
 
             <div className="text-slate-400 text-xs">
-              <span className="text-white font-semibold">Ministry of Education</span>, Govt. of India
+              <span className="text-white font-semibold">Indian Institute of Information Technology Dharwad</span>
+              <div className="text-[11px] text-slate-400">Institute of National Importance • MoE, Govt. of India</div>
             </div>
           </div>
 

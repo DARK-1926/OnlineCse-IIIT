@@ -20,7 +20,7 @@ export const newsArticles: NewsItem[] = [
   },
   {
     id: "news-2",
-    title: "Executive Education Revolution: How IIIT Dharwad Blends Weekend Virtual Classes with Campus Immersion in Hybrid M.Tech",
+    title: "Hybrid Postgraduate Education: How IIIT Dharwad Blends Weekend Virtual Classes with Campus Immersion",
     source: "EdTech Insights",
     date: "February 2026",
     excerpt: "Featuring in-depth mentorship by doctoral faculty and on-campus laboratories, the newly unveiled degree enables software engineers to upskill without pausing full-time employment.",

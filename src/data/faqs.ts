@@ -40,7 +40,7 @@ export const faqsData: FaqItem[] = [
     id: "faq-6",
     category: "Degree & Immersion",
     question: "Do graduates gain official Alumni Status at IIIT Dharwad?",
-    answer: "Yes. All successful graduates are inducted into the official IIIT Dharwad Executive Alumni Network, granting lifelong access to the institutional alumni directory, library digital repositories, annual convocations, technical conferences, and a high-impact network of tech leaders across Fortune 500 enterprises."
+    answer: "Yes. All successful graduates are inducted into the official IIIT Dharwad Alumni Network, granting lifelong access to the institutional alumni directory, library digital repositories, annual convocations, technical conferences, and a high-impact network of tech leaders across Fortune 500 enterprises."
   },
   {
     id: "faq-7",

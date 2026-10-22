@@ -10,8 +10,8 @@ export default function ProgramOverview() {
     },
     {
       icon: IndianRupee,
-      label: "Semester Fees",
-      value: "₹ 1,10,625 (Easy EMI options Available)",
+      label: "Total Program Fee",
+      value: "₹ 4.425 Lakhs",
     },
     {
       icon: Laptop,

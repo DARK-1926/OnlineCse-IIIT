@@ -94,7 +94,7 @@ export default function AboutPage() {
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                    <span>Residential suites for executive immersion cohorts</span>
+                    <span>Residential suites for campus immersion cohorts</span>
                   </div>
                 </div>
               </div>

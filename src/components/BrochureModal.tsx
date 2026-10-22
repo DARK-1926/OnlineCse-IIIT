@@ -59,8 +59,8 @@ export default function BrochureModal({ isOpen, onClose }: BrochureModalProps) {
 
       // Trigger automatic secure download
       const link = document.createElement("a");
-      link.href = "/docs/Executive_MTech_CSE_Brochure.pdf";
-      link.download = "IIIT_Dharwad_Executive_MTech_CSE_Curriculum.pdf";
+      link.href = "/docs/Hybrid_MTech_CSE_Brochure.pdf";
+      link.download = "IIIT_Dharwad_Hybrid_MTech_CSE_Curriculum.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -114,8 +114,8 @@ export default function BrochureModal({ isOpen, onClose }: BrochureModalProps) {
               </p>
               <div className="pt-2 flex flex-col sm:flex-row gap-3 justify-center">
                 <a
-                  href="/docs/Executive_MTech_CSE_Brochure.pdf"
-                  download="IIIT_Dharwad_Executive_MTech_CSE_Curriculum.pdf"
+                  href="/docs/Hybrid_MTech_CSE_Brochure.pdf"
+                  download="IIIT_Dharwad_Hybrid_MTech_CSE_Curriculum.pdf"
                   className="inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#193654] hover:bg-[#14293f] text-white font-bold text-xs uppercase tracking-wider rounded-lg font-grotesk transition-all shadow-sm"
                 >
                   <FileDown className="w-4 h-4 text-[#CCE70B]" />

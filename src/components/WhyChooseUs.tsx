@@ -55,8 +55,8 @@ export default function WhyChooseUs() {
     },
     {
       icon: GraduationCap,
-      title: "Executive Alumni Status",
-      desc: "Induction into the official IIIT Dharwad Executive Alumni Network, granting lifelong institutional access, library portals, and annual alumni conclaves.",
+      title: "Official Alumni Status",
+      desc: "Induction into the official IIIT Dharwad Alumni Network, granting lifelong institutional access, library portals, and annual alumni conclaves.",
     },
   ];
 

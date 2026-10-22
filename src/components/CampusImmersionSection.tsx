@@ -9,7 +9,7 @@ export default function CampusImmersionSection() {
     { day: "Day 4", title: "24-Hour Innovation Hackathon", desc: "Collaborate in interdisciplinary teams to build proof-of-concept solutions for real-world enterprise problems." },
     { day: "Day 5", title: "Tech Leadership Colloquium", desc: "Interactive keynote sessions and panel discussions with engineering directors and researchers from global MNCs." },
     { day: "Day 6", title: "Capstone Dissertation Defense", desc: "Present interim research proposals, architecture blueprints, and experimental benchmarks to faculty committees." },
-    { day: "Day 7", title: "Formal Convocation Dinner", desc: "Networking banquet, award of campus immersion certificates, and induction into the Executive Alumni Network." },
+    { day: "Day 7", title: "Formal Convocation Dinner", desc: "Networking banquet, award of campus immersion certificates, and induction into the IIIT Dharwad Alumni Network." },
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function CampusImmersionSection() {
             <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-slate-900">
               <Image
                 src="/images/campus_immersion.jpg"
-                alt="IIIT Dharwad Executive Campus Immersion Seminar"
+                alt="IIIT Dharwad Hybrid Campus Immersion Seminar"
                 fill
                 className="object-cover"
               />

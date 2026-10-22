@@ -112,7 +112,7 @@ const jsonLdOrg = {
 const jsonLdProgram = {
   "@context": "https://schema.org",
   "@type": "EducationalOccupationalProgram",
-  "name": "Executive Master of Technology in Computer Science and Engineering",
+  "name": "Hybrid Master of Technology in Computer Science and Engineering",
   "description":
     "A rigorous 2-year postgraduate degree program blending synchronous weekend masterclasses, practical hands-on labs, and an exclusive 7-day campus immersion at IIIT Dharwad.",
   "provider": {

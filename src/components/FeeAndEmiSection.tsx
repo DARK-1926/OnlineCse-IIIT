@@ -64,7 +64,7 @@ export default function FeeAndEmiSection() {
               </div>
               <div className="text-left sm:text-right">
                 <span className="text-[11px] text-slate-400 font-mono uppercase block">Total Course Fee</span>
-                <span className="text-base font-bold text-emerald-700 font-grotesk">₹ 4,42,500 (All-Inclusive)</span>
+                <span className="text-base font-bold text-emerald-700 font-grotesk">₹ 4,42,500 (₹4.425 Lakhs)</span>
               </div>
             </div>
 

@@ -57,8 +57,8 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
                 <div className="text-xs text-slate-300 mt-0.5">4 Semesters (60 Credits)</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-[#CCE70B] font-grotesk">₹ 1,10,625</div>
-                <div className="text-xs text-slate-300 mt-0.5">Per Semester • 0% EMI</div>
+                <div className="text-2xl font-bold text-[#CCE70B] font-grotesk">₹ 4.425 Lakhs</div>
+                <div className="text-xs text-slate-300 mt-0.5">Total Fee</div>
               </div>
               <div>
                 <div className="text-2xl font-bold text-white font-grotesk">Weekend</div>

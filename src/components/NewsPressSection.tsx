@@ -12,7 +12,7 @@ export default function NewsPressSection() {
     },
     {
       img: "/images/news_academic_press.jpg",
-      title: "Executive Education Milestone: IIIT Dharwad Unveils Flexible Postgraduate Computing Degree for Working Technologists",
+      title: "Hybrid Education Milestone: IIIT Dharwad Unveils Flexible Postgraduate Computing Degree for Working Technologists",
       source: "National Education Press",
       link: "https://onlinecse.iiitdwd.ac.in",
     },

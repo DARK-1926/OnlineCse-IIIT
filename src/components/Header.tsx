@@ -25,7 +25,7 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
     <header className="sticky top-0 z-50 bg-white shadow-xs border-b border-slate-200">
       {/* Top Institutional Bar */}
       <div className="bg-[#14293f] text-slate-200 text-xs py-2 px-4 border-b border-[#193654]">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+        <div className="max-w-[1440px] mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-2">
             <span className="font-semibold text-white">
               Indian Institute of Information Technology Dharwad
@@ -57,12 +57,12 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
       </div>
 
       {/* Main Navbar */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20 sm:h-24">
           
           {/* Logo & Institute Identity */}
           <Link href="/" className="flex items-center gap-3 group flex-shrink-0 py-1">
-            <div className="relative h-12 w-56 sm:w-72 md:w-80 flex-shrink-0">
+            <div className="relative h-12 sm:h-14 lg:h-16 w-64 sm:w-80 md:w-96 lg:w-[380px] xl:w-[450px] flex-shrink-0">
               <Image
                 src="/images/iiitdwd_logo_transparent.png"
                 alt="Indian Institute of Information Technology Dharwad"
@@ -71,23 +71,13 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
                 priority
               />
             </div>
-            <div className="hidden xl:flex items-center pl-3 border-l border-slate-300">
-              <div>
-                <div className="text-xs font-bold text-[#193654] uppercase tracking-wider font-grotesk leading-tight">
-                  M.Tech in CSE
-                </div>
-                <div className="text-[10px] text-slate-500 font-medium font-roboto">
-                  Continuing Education
-                </div>
-              </div>
-            </div>
           </Link>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden lg:flex items-center gap-1 text-sm font-semibold text-[#193654] font-grotesk">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 text-sm font-semibold text-[#193654] font-grotesk">
             <Link 
               href="/" 
-              className="px-3.5 py-2 rounded-md hover:text-[#8b1c2e] hover:bg-slate-50 transition-colors"
+              className="px-2.5 xl:px-3.5 py-2 rounded-md hover:text-[#8b1c2e] hover:bg-slate-50 transition-colors"
             >
               Home
             </Link>
@@ -164,11 +154,11 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
           </nav>
 
           {/* Action CTAs */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-2 xl:gap-3 flex-shrink-0">
             <button
               type="button"
               onClick={onOpenBrochureModal}
-              className="px-4 py-2.5 rounded-md border-2 border-[#193654] text-[#193654] font-bold text-xs uppercase tracking-wider hover:bg-[#193654] hover:text-white transition-colors cursor-pointer flex items-center gap-1.5"
+              className="px-3 xl:px-4 py-2.5 rounded-md border-2 border-[#193654] text-[#193654] font-bold text-xs uppercase tracking-wider hover:bg-[#193654] hover:text-white transition-colors cursor-pointer flex items-center gap-1.5 whitespace-nowrap"
             >
               <FileDown className="w-4 h-4" />
               <span>Download Brochure</span>
@@ -176,7 +166,7 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
 
             <a
               href="#lead-form"
-              className="px-5 py-2.5 rounded-md bg-[#193654] hover:bg-[#1f4266] text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-xs flex items-center gap-1.5"
+              className="px-3.5 xl:px-5 py-2.5 rounded-md bg-[#193654] hover:bg-[#1f4266] text-white font-bold text-xs uppercase tracking-wider transition-colors shadow-xs flex items-center gap-1.5 whitespace-nowrap"
             >
               <GraduationCap className="w-4 h-4 text-[#CCE70B]" />
               <span>Apply Now</span>

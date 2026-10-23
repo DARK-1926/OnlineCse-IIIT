@@ -122,14 +122,81 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
                   <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
                     <div className="flex items-center gap-2 font-bold text-xs text-[#193654] mb-1 font-grotesk">
                       <BookOpen className="w-4 h-4 text-[#8b1c2e]" />
-                      <span>Capstone Dissertation</span>
+                      <span>Four-Phase Progressive Project</span>
                     </div>
                     <p className="text-xs text-slate-500 font-roboto">
-                      16-credit final-year industry or academic research project guided directly by IIIT Dharwad faculty advisors.
+                      30-credit progressive research & industry project (Project I to IV across all 4 semesters) guided directly by IIIT Dharwad faculty advisors.
                     </p>
                   </div>
                 </div>
               </div>
+
+              {/* Specialisation-wise Indicative List of Courses (Official IIIT Dharwad Curriculum) */}
+              {data.indicativeCourses && data.indicativeCourses.length > 0 && (
+                <div className="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-4">
+                    <div>
+                      <span className="text-xs font-bold text-[#8b1c2e] uppercase font-mono tracking-widest block">
+                        // OFFICIAL IIIT DHARWAD BASKET
+                      </span>
+                      <h3 className="text-xl font-bold text-[#193654] font-grotesk">
+                        Specialisation-wise Indicative List of Courses
+                      </h3>
+                    </div>
+                    <span className="text-xs font-mono font-semibold bg-[#193654] text-[#CCE70B] px-3 py-1.5 rounded self-start sm:self-center">
+                      {data.indicativeCourses.length} Courses Offered
+                    </span>
+                  </div>
+
+                  <p className="text-xs text-slate-600 font-roboto leading-relaxed">
+                    Learners select from this indicative basket across semesters to fulfill their elective requirements.
+                  </p>
+
+                  <div className="border border-slate-200 rounded-xl overflow-hidden bg-white shadow-2xs mt-4">
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left text-xs font-roboto">
+                        <thead className="bg-[#193654] text-white font-grotesk font-bold uppercase tracking-wider text-[11px]">
+                          <tr>
+                            <th className="py-3 px-4 w-14 text-center">Sl. No.</th>
+                            <th className="py-3 px-4 w-28">Course Code</th>
+                            <th className="py-3 px-4">Course Title</th>
+                            <th className="py-3 px-4 w-20 text-center">Credit</th>
+                            <th className="py-3 px-4 w-28 text-center">Tent. Sem</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-slate-100">
+                          {data.indicativeCourses.map((course) => (
+                            <tr
+                              key={course.slNo + course.title}
+                              className="hover:bg-slate-50 transition-colors"
+                            >
+                              <td className="py-3 px-4 text-center text-slate-500 font-mono font-semibold">
+                                {course.slNo}
+                              </td>
+                              <td className="py-3 px-4 font-mono font-bold text-[#193654]">
+                                {course.code}
+                              </td>
+                              <td className="py-3 px-4 font-semibold text-slate-900 text-[13px]">
+                                {course.title}
+                              </td>
+                              <td className="py-3 px-4 text-center font-mono font-bold text-[#193654]">
+                                <span className="bg-slate-100 border border-slate-200 px-2 py-0.5 rounded">
+                                  {course.credits}
+                                </span>
+                              </td>
+                              <td className="py-3 px-4 text-center font-mono font-semibold text-slate-700">
+                                <span className="bg-[#CCE70B]/20 text-[#193654] border border-[#CCE70B]/40 px-2 py-0.5 rounded text-[11px]">
+                                  Sem {course.tentativeSem}
+                                </span>
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {/* Semester-Wise Tab Accordions */}
               <div className="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-2xs">
@@ -175,11 +242,17 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
                           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
                             <div>
                               <span className="text-[11px] font-mono text-[#8b1c2e] font-bold block">
+                                {course.code ? `${course.code} • ` : ""}
                                 {course.type}
                               </span>
                               <h4 className="text-sm sm:text-base font-bold text-[#193654] font-grotesk">
                                 {course.name}
                               </h4>
+                              {course.note && (
+                                <span className="text-[11px] text-[#8b1c2e] font-mono block mt-0.5">
+                                  ({course.note})
+                                </span>
+                              )}
                             </div>
                             <span className="text-xs font-semibold bg-white border border-slate-200 text-[#193654] px-2.5 py-1 rounded font-mono self-start sm:self-center">
                               {course.credits} Credits
@@ -201,6 +274,69 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
                       ))}
                     </div>
                   ))}
+              </div>
+
+              {/* 4-Phase Progressive Research Project Journey Card */}
+              <div className="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+                <span className="text-xs font-bold text-[#8b1c2e] uppercase font-mono tracking-widest block">
+                  // PROJECT ARCHITECTURE (30 CREDITS TOTAL)
+                </span>
+                <h3 className="text-lg font-bold text-[#193654] font-grotesk">
+                  Four-Phase Progressive Capstone Project Sequence
+                </h3>
+                <p className="text-xs text-slate-600 leading-relaxed font-roboto">
+                  Across all 4 semesters, every M.Tech learner undertakes an extensive, faculty-guided engineering and research project. Totaling <strong>30 credits</strong> (50% of the entire degree), this ensures hands-on mastery, enterprise-level deployment, and high-impact dissertation work.
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs font-roboto">
+                  <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
+                    <div className="flex items-center justify-between mb-1.5">
+                      <span className="font-bold text-[#193654] font-grotesk">CS696: Project-I</span>
+                      <span className="font-mono text-xs font-bold text-[#8b1c2e] bg-white px-2 py-0.5 rounded border border-slate-200">
+                        3 Credits • Sem 1
+                      </span>
+                    </div>
+                    <p className="text-slate-600">
+                      Problem definition, literature survey, feasibility analysis, and architecture specifications.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
+                    <div className="flex items-center justify-between mb-1.5">
+                      <span className="font-bold text-[#193654] font-grotesk">CS697: Project-II</span>
+                      <span className="font-mono text-xs font-bold text-[#8b1c2e] bg-white px-2 py-0.5 rounded border border-slate-200">
+                        6 Credits • Sem 2
+                      </span>
+                    </div>
+                    <p className="text-slate-600">
+                      Core prototype implementation, experimental testbed setup, baseline benchmarking, and progress review.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
+                    <div className="flex items-center justify-between mb-1.5">
+                      <span className="font-bold text-[#193654] font-grotesk">CS698: Project-III</span>
+                      <span className="font-mono text-xs font-bold text-[#8b1c2e] bg-white px-2 py-0.5 rounded border border-slate-200">
+                        9 Credits • Sem 3
+                      </span>
+                    </div>
+                    <p className="text-slate-600">
+                      Substantial scale-up, architectural optimization, empirical benchmark evaluation, and interim defense.
+                    </p>
+                  </div>
+
+                  <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
+                    <div className="flex items-center justify-between mb-1.5">
+                      <span className="font-bold text-[#193654] font-grotesk">CS699: Project-IV</span>
+                      <span className="font-mono text-xs font-bold text-[#8b1c2e] bg-white px-2 py-0.5 rounded border border-slate-200">
+                        12 Credits • Sem 4
+                      </span>
+                    </div>
+                    <p className="text-slate-600">
+                      Production deployment, dissertation write-up, publication/patent drafting, and formal viva-voce defense.
+                    </p>
+                  </div>
+                </div>
               </div>
 
               {/* Academic Rigor & Grading Structure */}

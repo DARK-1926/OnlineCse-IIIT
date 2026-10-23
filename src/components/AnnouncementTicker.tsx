@@ -3,8 +3,8 @@ import { Megaphone } from "lucide-react";
 
 export default function AnnouncementTicker() {
   const announcements = [
-    { highlight: "Admissions Open 2026:", text: "M.Tech in CSE (AI & ML, Cloud Computing, Cybersecurity)." },
-    { highlight: "Application Deadline:", text: "Round 2 Applications & Technical Evaluations close on 30th April 2026." },
+    { highlight: "Admissions Open 2026:", text: "M.Tech in CSE (AI & ML, Cloud Computing, Cyber Security)." },
+    { highlight: "Admissions Notice:", text: "Applications & Technical Evaluations currently in progress for 2026 Cohort." },
     { highlight: "Hybrid Format:", text: "Live Interactive Weekend Masterclasses & 7-Day Campus Lab Immersion." },
     { highlight: "Campus Immersion:", text: "7-Day Residential Hands-On Lab Work at IIIT Dharwad 60-Acre Campus Included." },
   ];

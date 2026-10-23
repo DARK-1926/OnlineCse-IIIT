@@ -77,7 +77,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
               <div className="flex items-center gap-2 text-xs text-slate-300 font-roboto">
                 <Calendar className="w-4 h-4 text-[#CCE70B] flex-shrink-0" />
                 <span>
-                  Autumn 2026 Batch Admissions Open • Round 2 Applications close <strong className="text-white">April 30, 2026</strong>
+                  Autumn 2026 Batch Admissions Open
                 </span>
               </div>
 

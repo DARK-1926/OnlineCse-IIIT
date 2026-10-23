@@ -16,7 +16,7 @@ export default function DegreeCertificateSection() {
             Degree Awarded by IIIT Dharwad
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Graduates receive an authentic Master of Technology (M.Tech) in Computer Science & Engineering conferred by an Institute of National Importance:
+            Graduates receive an Master of Technology (M.Tech) in Computer Science & Engineering by IIIT:
           </p>
         </div>
 
@@ -53,31 +53,40 @@ export default function DegreeCertificateSection() {
               <div className="flex items-start gap-2.5 p-3.5 bg-[#f9f9ff] rounded-lg border border-slate-200">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e] flex-shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#193654] block font-grotesk">Specialization Transcript Notation:</strong>
-                  Your official grade card and transcripts will explicitly reflect your chosen domain specialization (Artificial Intelligence & Machine Learning, Cloud Computing, or Cybersecurity).
+                  <strong className="text-[#193654] block font-grotesk">Two-Stage Multi-Exit Pathways:</strong>
+                  <span><strong>PG Diploma in CSE:</strong> Awarded upon completing 30 credits (Semesters 1 & 2 coursework).</span><br />
+                  <span><strong>M.Tech in CSE:</strong> Conferred upon completing full 60 credits including the 30-credit master&apos;s project and dissertation.</span>
                 </div>
               </div>
 
               <div className="flex items-start gap-2.5 p-3.5 bg-[#f9f9ff] rounded-lg border border-slate-200">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e] flex-shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#193654] block font-grotesk">Equivalent to On-Campus M.Tech:</strong>
-                  Under UGC regulations for higher education, degrees awarded by Institutes of National Importance are recognized globally for corporate leadership roles and higher doctoral studies (Ph.D.).
+                  <strong className="text-[#193654] block font-grotesk">Full-Time M.Tech Equivalent & PhD Eligibility:</strong>
+                  Conferred under the Indian Institutes of Information Technology (Public-Private Partnership) Act of Parliament. Enjoys complete academic equivalence to full-time on-campus degrees, granting direct eligibility for Ph.D. admissions across India and abroad.
                 </div>
               </div>
 
               <div className="flex items-start gap-2.5 p-3.5 bg-[#f9f9ff] rounded-lg border border-slate-200">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e] flex-shrink-0 mt-0.5" />
                 <div>
-                  <strong className="text-[#193654] block font-grotesk">Annual Convocation at Dharwad:</strong>
-                  Graduates are cordially invited to the annual in-person convocation ceremony at IIIT Dharwad to receive their degree scroll alongside full-time postgraduate scholars.
+                  <strong className="text-[#193654] block font-grotesk">Domain Specialization Transcripts:</strong>
+                  Your official grade card and transcripts explicitly reflect your domain track: <strong>AI & ML</strong>, <strong>Cyber Security</strong>, or <strong>Cloud Computing</strong>.
+                </div>
+              </div>
+
+              <div className="flex items-start gap-2.5 p-3.5 bg-[#f9f9ff] rounded-lg border border-slate-200">
+                <CheckCircle2 className="w-4 h-4 text-[#8b1c2e] flex-shrink-0 mt-0.5" />
+                <div>
+                  <strong className="text-[#193654] block font-grotesk">Annual Convocation & Alumni Privileges:</strong>
+                  Graduates are invited to receive their degree scroll in person at the annual convocation at IIIT Dharwad, and receive official institute alumni status with an official institutional email ID.
                 </div>
               </div>
             </div>
 
             <div className="pt-2">
               <div className="p-4 bg-slate-50 border-l-4 border-[#193654] rounded-r-lg text-xs text-slate-600">
-                <span className="font-bold text-[#193654] block mb-0.5 font-grotesk">Official Verification:</span>
+                <span className="font-bold text-[#193654] block mb-0.5 font-grotesk">Official Digital Verification:</span>
                 Degrees and transcripts are permanently verifiable via the National Academic Depository (NAD) and DigiLocker portals.
               </div>
             </div>

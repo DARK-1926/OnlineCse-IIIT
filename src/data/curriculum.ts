@@ -561,8 +561,8 @@ export const cloudIndicativeCourses: IndicativeCourse[] = [
 
 export const aimlCurriculum: SpecializationCurriculum = {
   id: "aiml",
-  name: "M.Tech in CSE (Artificial Intelligence & Machine Learning)",
-  shortName: "AI & Machine Learning",
+  name: "M.Tech in CSE (AI & ML)",
+  shortName: "AI & ML",
   tagline: "Pioneer Intelligent Systems, Deep Learning & Autonomous Technologies",
   description: "Gain rigorous theoretical foundations and industrial-strength mastery of machine learning algorithms, probabilistic modeling, deep neural networks, computer vision, agentic systems, and generative AI.",
   careerOutcomes: [
@@ -835,8 +835,8 @@ export const aimlCurriculum: SpecializationCurriculum = {
 
 export const cyberCurriculum: SpecializationCurriculum = {
   id: "cybersecurity",
-  name: "M.Tech in CSE (Cyber Security & Information Defense)",
-  shortName: "Cyber Security",
+  name: "M.Tech in CSE (CyberSecurity)",
+  shortName: "CyberSecurity",
   tagline: "Safeguard Digital Frontiers, Cryptography & Resilient Architectures",
   description: "Master modern cryptographic foundations, enterprise threat modeling, system defense, reverse engineering, ethical penetration testing, biometric forensics, DevSecOps, and cloud security governance.",
   careerOutcomes: [

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s | IIIT Dharwad M.Tech in CSE",
   },
   description:
-    "Official M.Tech in CSE from IIIT Dharwad (Institute of National Importance). World-class specializations in AI & Machine Learning, Cybersecurity, and Cloud Systems. Flexible hybrid format tailored for working tech professionals with weekend live classes and 7-day campus immersion.",
+    "Official M.Tech in CSE from IIIT Dharwad (Institute of National Importance). World-class specializations in AI & ML, Cyber Security, and Cloud Computing. Flexible hybrid format tailored for working tech professionals with weekend live classes and 7-day campus immersion.",
   keywords: [
     "IIIT Dharwad",
     "M.Tech in CSE",
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "M.Tech Computer Science",
     "IIIT Dharwad CSE",
     "M.Tech in AI and ML",
-    "M.Tech Cybersecurity India",
+    "M.Tech Cyber Security India",
     "M.Tech Cloud Computing DevOps",
     "M.Tech for Working Professionals",
     "Institute of National Importance M.Tech",
     "AICTE UGC Degree Equivalent",
   ],
-  authors: [{ name: "IIIT Dharwad Centre for Continuing Education" }],
+  authors: [{ name: "IIIT Dharwad" }],
   creator: "Indian Institute of Information Technology Dharwad",
   publisher: "IIIT Dharwad",
   formatDetection: {
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "M.Tech in CSE | IIIT Dharwad | For Working Professionals",
     description:
-      "Transform your career with an Institute of National Importance degree. 60 Academic Credits, 3 In-Demand Tracks (AI/ML, Cyber, Cloud), Live Masterclasses & 7-Day Campus Residency.",
+      "Transform your career with an Institute of National Importance degree. 60 Academic Credits, 3 In-Demand Tracks (AI & ML, Cyber Security, Cloud Computing), Live Masterclasses & 7-Day Campus Residency.",
     url: siteUrl,
     siteName: "IIIT Dharwad M.Tech in CSE",
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "M.Tech in CSE | IIIT Dharwad",
     description:
-      "2-Year Postgraduate Degree in Flexible Hybrid Mode for Working Engineers. Specializations in AI/ML, Cybersecurity & Cloud Architecture.",
+      "2-Year Postgraduate Degree in Flexible Hybrid Mode for Working Engineers. Specializations in AI & ML, Cyber Security and Cloud Computing.",
     images: ["/images/campus_building_hero.jpg"],
   },
   robots: {
@@ -93,7 +93,7 @@ const jsonLdOrg = {
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Ittigatti Road, Near Sattur Colony",
+    "streetAddress": "Ittigatti Road",
     "addressLocality": "Dharwad",
     "addressRegion": "Karnataka",
     "postalCode": "580009",
@@ -127,17 +127,17 @@ const jsonLdProgram = {
   "hasCourse": [
     {
       "@type": "Course",
-      "name": "Specialization in Artificial Intelligence and Machine Learning",
+      "name": "Specialization in AI & ML",
       "description": "Deep Learning, Large Language Models, NLP, Reinforcement Learning, and Computer Vision.",
     },
     {
       "@type": "Course",
-      "name": "Specialization in Cybersecurity & Digital Forensics",
+      "name": "Specialization in Cyber Security",
       "description": "SOC Operations, Cryptography, Cloud Infrastructure Defense, and Penetration Testing.",
     },
     {
       "@type": "Course",
-      "name": "Specialization in Cloud Systems & DevOps Architecture",
+      "name": "Specialization in Cloud Computing",
       "description": "Microservices, Distributed Systems, Kubernetes Orchestration, and High-Performance Cloud.",
     },
   ],

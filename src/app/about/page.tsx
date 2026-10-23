@@ -45,10 +45,10 @@ export default function AboutPage() {
                   Overview of the Institute
                 </h2>
                 <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-                  Indian Institute of Information Technology Dharwad is an Institute of National Importance set up with a mandate to foster excellence in information technology and computer science education, research, and industry-oriented innovation.
+                  Indian Institute of Information Technology, Dharwad (IIIT Dharwad), established in 2015 through a unique Public-Private-Partnership by the Ministry of Education, Government of India, in collaboration with the Government of Karnataka and industry partner Keonics, offers world-class education designed to meet global industry demands.
                 </p>
                 <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-                  Located in the educational cluster of Hubballi-Dharwad, Karnataka, the institute is driven by distinguished doctoral faculty and active research groups working in Artificial Intelligence, Cyber-Physical Systems, Data Engineering, and Speech Processing.
+                  As an Institute of National Importance by an Act of Parliament, IIIT Dharwad focuses on education, advanced computing laboratories, and high-impact research. The institute is committed to enabling India to sustain its global leadership in IT and allied computing domains, while focusing on applying computing technologies to address socially relevant challenges. The M.Tech in CSE is delivered with the same academic rigor, comprehensive coverage, and outcomes as the on-campus programmes.
                 </p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-3 font-grotesk">
@@ -70,7 +70,7 @@ export default function AboutPage() {
               {/* Campus Photo & Infrastructure */}
               <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-2xs space-y-4">
                 <h3 className="text-xl font-bold text-[#193654] font-grotesk">
-                  Permanent Campus at Sattur Colony
+                  Permanent Campus at Dharwad, Karnataka
                 </h3>
                 <div className="relative aspect-[16/9] w-full rounded-lg overflow-hidden border border-slate-200 my-4 shadow-sm">
                   <Image
@@ -81,31 +81,31 @@ export default function AboutPage() {
                   />
                 </div>
                 <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-                  The permanent campus on Ittigatti Road, near Sattur Colony, features modern computing labs equipped with high-performance clusters, digital classrooms, central library facilities, student activity centers, and residential hostels that host participants during their 7-day campus immersion.
+                  The permanent campus on Ittigatti Road, Dharwad, features modern computing labs equipped with high-performance clusters, digital classrooms, central library facilities, student activity centers, and residential hostels that host participants during their 7-day campus immersion.
                 </p>
                 <div className="space-y-2 text-xs text-slate-700 pt-2 font-medium font-roboto">
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                    <span>NVIDIA GPU workstation servers for deep learning research</span>
+                    <span>Advanced computing laboratories supporting academic and research projects</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                    <span>High-throughput gigabit network infrastructure across campus</span>
+                    <span>Central library with digital research databases and technical repositories</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                    <span>Residential suites for campus immersion cohorts</span>
+                    <span>On-campus hostel accommodation and dining facilities for immersion participants</span>
                   </div>
                 </div>
               </div>
 
-              {/* Vision of CEP */}
+              {/* Vision of M.Tech CSE */}
               <div className="bg-white rounded-xl p-8 border border-slate-200 shadow-2xs space-y-4">
                 <h3 className="text-xl font-bold text-[#193654] font-grotesk">
-                  Centre for Continuing Education (CEP)
+                  Postgraduate Degree Programs for Working Professionals
                 </h3>
                 <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-                  The Centre for Continuing Education at IIIT Dharwad was established to extend the institute’s academic and technological capabilities to India&apos;s working engineering workforce. Through structured weekend degree programs like the M.Tech in CSE, software engineers can elevate their theoretical depth and master specialized computing disciplines without stepping away from full-time employment.
+                  IIIT Dharwad provides advanced postgraduate programs designed to extend the institute’s academic and technological capabilities to India&apos;s working engineering workforce. Through structured weekend degree programs like the M.Tech in CSE, software engineers can elevate their theoretical depth and master specialized computing disciplines without stepping away from full-time employment.
                 </p>
                 <div className="pt-2">
                   <Link

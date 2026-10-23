@@ -15,7 +15,6 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import CareerPossibilities from "@/components/CareerPossibilities";
 import SkillsMastered from "@/components/SkillsMastered";
 import DirectorMessage from "@/components/DirectorMessage";
-import NewsPressSection from "@/components/NewsPressSection";
 import FaqSection from "@/components/FaqSection";
 
 export default function HomePage() {
@@ -37,7 +36,6 @@ export default function HomePage() {
       <CareerPossibilities />
       <SkillsMastered />
       <DirectorMessage />
-      <NewsPressSection />
       <FaqSection />
     </>
   );

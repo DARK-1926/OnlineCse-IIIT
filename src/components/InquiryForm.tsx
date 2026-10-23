@@ -234,14 +234,14 @@ export default function InquiryForm() {
             className="mt-1 w-4 h-4 rounded border-slate-300 text-[#193654] accent-[#193654] cursor-pointer"
           />
           <label htmlFor="terms" className="text-[11px] text-slate-500 leading-snug cursor-pointer select-none">
-            I agree to receive academic advisement, syllabus guidelines, and admission updates from IIIT Dharwad CCE.
+            I agree to receive academic advisement, syllabus guidelines, and admission updates from IIIT Dharwad.
           </label>
         </div>
 
         <button
           type="submit"
           disabled={loading || !formData.consent}
-          className="w-full py-3.5 bg-gradient-to-r from-[#193654] to-[#14293f] hover:from-[#14293f] hover:to-[#0f1f30] text-white font-bold text-sm rounded-lg transition-all cursor-pointer disabled:opacity-50 tracking-wider uppercase font-grotesk shadow-md hover:shadow-lg active:translate-y-px"
+          className="w-full py-3.5 bg-gradient-to-r from-[#193654] to-[#14293f] hover:from-[#14293f] hover:to-[#0f1f30] text-white font-bold text-xs rounded-lg transition-all cursor-pointer disabled:opacity-50 tracking-wider uppercase font-grotesk shadow-md hover:shadow-lg active:translate-y-px"
         >
           {loading ? (
             <span className="flex items-center justify-center gap-2">

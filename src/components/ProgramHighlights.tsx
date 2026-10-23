@@ -20,49 +20,49 @@ export default function ProgramHighlights() {
       desc: "Earn an authentic Master of Technology degree directly conferred by IIIT Dharwad, an Institute of National Importance under the Ministry of Education, Government of India.",
     },
     {
+      icon: GraduationCap,
+      title: "PhD Eligibility & Equivalence",
+      desc: "Full statutory equivalence to on-campus M.Tech degrees, making graduates directly eligible to pursue Ph.D. doctoral research at premier national and international universities.",
+    },
+    {
       icon: BookOpen,
-      title: "Advanced Curriculum",
-      desc: "Designed to bridge theoretical depth and modern engineering realities across Artificial Intelligence, Cloud Infrastructure, and Cyber Defense.",
+      title: "Institute Autonomy & Senate",
+      desc: "An academic Senate comprising senior academicians and tech industry executives ensures the curriculum remains relevant, rigorous, and responsive to industry shifts.",
     },
     {
       icon: Building2,
       title: "7-Day Campus Immersion",
-      desc: "Experience campus life at IIIT Dharwad's 60-acre permanent campus with hands-on lab experiments, hackathons, and face-to-face mentorship.",
+      desc: "Experience campus life at IIIT Dharwad's 60-acre permanent campus with hands-on lab experiments, hackathons, and face-to-face faculty mentorship.",
     },
     {
-      icon: Users,
-      title: "Expert Faculty Guidance",
-      desc: "Mentored directly by esteemed doctoral faculty members and active research scientists leading funded national computing projects.",
-    },
-    {
-      icon: Code2,
-      title: "Industry Capstone Project",
-      desc: "A rigorous 16-credit final-year dissertation project where you solve a high-impact engineering challenge from your company or academic research.",
+      icon: Laptop,
+      title: "Structured Attendance Policy",
+      desc: "Mandatory 75% attendance (60% live synchronous lectures on weekends + 15% asynchronous recorded coursework completion) with 24/7 digital LMS access.",
     },
     {
       icon: Network,
-      title: "Professional Networking",
-      desc: "Connect with high-caliber software engineers, architects, and technical analysts across leading tech companies across India.",
+      title: "Multiple Exit Options",
+      desc: "Complete 30 credits for a PG Diploma in CSE or complete the full 60 credits for the M.Tech Degree, with flexible pause and resume options within a 4-year window.",
+    },
+    {
+      icon: Code2,
+      title: "30-Credit Project Sequence",
+      desc: "Rigorous Project I through IV sequence across semesters to build real enterprise solutions, research publications, or industry capstone dissertations.",
     },
     {
       icon: Briefcase,
       title: "Strong Industry Connect",
-      desc: "Curriculum aligned with industry hiring benchmarks, complemented by guest masterclasses by engineering leaders from top MNCs.",
-    },
-    {
-      icon: Laptop,
-      title: "Flexible Hybrid Learning",
-      desc: "Synchronous live weekend lectures and hands-on campus lab immersion, paired with 24/7 digital LMS recordings and self-paced assignments.",
+      desc: "Programs aligned to modern enterprise engineering benchmarks, featuring guest masterclasses from technical directors and industry practitioners.",
     },
     {
       icon: GraduationCap,
       title: "IIIT Dharwad Alumni Status",
-      desc: "Gain official induction into the IIIT Dharwad Alumni Network, granting lifelong institutional access, library portals, and annual convocations.",
+      desc: "Gain official induction into the IIIT Dharwad Alumni Network, complete with an official institute email ID, library portal access, and annual convocation invites.",
     },
     {
       icon: TrendingUp,
-      title: "Career Readiness",
-      desc: "Step directly into senior architectural, strategic, and tech leadership roles such as Principal Architect, ML Lead, or Cyber Defense Director.",
+      title: "Outcome-Based Education",
+      desc: "Demonstrates that students are trained to meet precise architectural and software engineering objectives, preparing them for Tier-1 technology leadership roles.",
     },
   ];
 
@@ -79,7 +79,7 @@ export default function ProgramHighlights() {
             Distinctive Educational Features
           </h2>
           <p className="text-sm text-slate-600 mt-2 font-roboto">
-            Why leading tech professionals across India choose the IIIT Dharwad M.Tech in CSE:
+            Why leading tech professionals & motivated students across India choose the IIIT Dharwad M.Tech in CSE:
           </p>
         </div>
 

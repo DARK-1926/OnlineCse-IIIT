@@ -34,7 +34,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
             <div className="inline-flex items-center gap-2.5 text-xs font-medium text-slate-300 border-l-2 border-[#CCE70B] pl-3 py-0.5">
               <span className="font-semibold text-white tracking-wide">IIIT Dharwad</span>
               <span className="text-slate-500">•</span>
-              <span>Centre for Continuing Education</span>
+              <span>Institute of National Importance</span>
             </div>
 
             {/* Main Title & Subtitle */}
@@ -43,7 +43,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
                 M.Tech in CSE
               </h1>
               <p className="text-sm sm:text-base font-medium text-[#CCE70B] font-roboto">
-                Specializations in Artificial Intelligence & ML, Cloud Systems & DevOps, and Cybersecurity
+                Specializations in AI & ML, Cyber Security and Cloud Computing
               </p>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-roboto pt-1 max-w-2xl">
                 A two-year Master of Technology degree offered in flexible hybrid mode, tailored for working software engineers and technology leaders. Build deep systems expertise through live weekend faculty sessions and an on-campus laboratory residency at IIIT Dharwad.

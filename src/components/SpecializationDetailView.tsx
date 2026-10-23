@@ -99,23 +99,23 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
               {/* Specialization Overview Description */}
               <div className="bg-white rounded-xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
                 <span className="text-xs font-bold text-[#8b1c2e] uppercase font-mono tracking-widest block">
-                  // CURRICULUM BLUEPRINT
+                  // CURRICULUM STRUCTURE
                 </span>
                 <h2 className="text-xl sm:text-2xl font-bold text-[#193654] font-grotesk">
-                  Specialization Overview & Competency Framework
+                  Specialization Overview
                 </h2>
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed font-roboto">
-                  Designed in collaboration with engineering leadership from leading cloud providers and tier-one AI research labs, the {data.name} curriculum combines mathematical rigour with extensive hands-on laboratory exercises.
+                  The {data.name} specialization under the M.Tech in CSE program combines rigorous academic foundations with hands-on laboratory work and project implementation, designed and approved by the Senate of IIIT Dharwad.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                   <div className="p-4 bg-[#f9f9ff] rounded-lg border border-slate-200">
                     <div className="flex items-center gap-2 font-bold text-xs text-[#193654] mb-1 font-grotesk">
                       <Terminal className="w-4 h-4 text-[#8b1c2e]" />
-                      <span>Applied Lab Sandbox</span>
+                      <span>Practical Computing Labs</span>
                     </div>
                     <p className="text-xs text-slate-500 font-roboto">
-                      Full access to remote GPU compute clusters, containerized testbeds, and vulnerability testing environments.
+                      Hands-on programming assignments, system design laboratories, and coursework using institute computing infrastructure.
                     </p>
                   </div>
 
@@ -125,7 +125,7 @@ export default function SpecializationDetailView({ data }: SpecializationDetailV
                       <span>Four-Phase Progressive Project</span>
                     </div>
                     <p className="text-xs text-slate-500 font-roboto">
-                      30-credit progressive research & industry project (Project I to IV across all 4 semesters) guided directly by IIIT Dharwad faculty advisors.
+                      30-credit progressive research & implementation project (Projects I to IV across all 4 semesters) guided directly by IIIT Dharwad faculty advisors.
                     </p>
                   </div>
                 </div>

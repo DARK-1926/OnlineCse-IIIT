@@ -92,7 +92,7 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3 text-sm text-slate-700 leading-relaxed font-roboto">
                   <MapPin className="w-5 h-5 text-[#8b1c2e] flex-shrink-0 mt-0.5" />
                   <span>
-                    Indian Institute of Information Technology Dharwad, Ittigatti Rd, near Sattur Colony, Dharwad, Karnataka 580009, India
+                    Indian Institute of Information Technology Dharwad, Ittigatti Rd, Dharwad, Karnataka 580009, India
                   </span>
                 </div>
                 <div className="flex items-center gap-2 text-xs text-slate-500 pt-1 font-roboto">
@@ -106,7 +106,7 @@ export default function ContactPage() {
                 <div className="p-4 border-b border-slate-200 font-bold text-xs uppercase tracking-wider text-slate-700 flex items-center justify-between font-grotesk">
                   <span>IIIT Dharwad Campus Location</span>
                   <a 
-                    href="https://maps.google.com/?q=IIIT+Dharwad" 
+                    href="https://maps.google.com/?q=Indian+Institute+of+Information+Technology+Dharwad,+Ittigatti+Road" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-[#193654] flex items-center gap-1 hover:text-[#8b1c2e] hover:underline text-xs"
@@ -118,7 +118,7 @@ export default function ContactPage() {
                 <div className="aspect-video w-full">
                   <iframe
                     title="IIIT Dharwad Campus Location"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.853247076214!2d75.02102147493202!3d15.38468758520288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d2b0e6bf6bf3%3A0xb35a5a1f2b604473!2sIndian%20Institute%20of%20Information%20Technology%2C%20Dharwad!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                    src="https://maps.google.com/maps?q=Indian+Institute+of+Information+Technology+Dharwad,+Ittigatti+Road,+Dharwad&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     className="w-full h-full border-0"
                     allowFullScreen
                     loading="lazy"

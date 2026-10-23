@@ -92,7 +92,7 @@ export default function MasterCurriculumPage() {
                   }`}
                 >
                   <Layers className="w-4 h-4" />
-                  <span>Overall Course Structure (Page 1)</span>
+                  <span>Overall Course Structure</span>
                 </button>
 
                 <button
@@ -105,7 +105,7 @@ export default function MasterCurriculumPage() {
                   }`}
                 >
                   <Sparkles className="w-4 h-4" />
-                  <span>Specialization Elective Lists (Page 2)</span>
+                  <span>Specialization Elective Lists</span>
                 </button>
 
                 <button
@@ -223,20 +223,36 @@ export default function MasterCurriculumPage() {
                     </div>
 
                     {/* Total Credits Summary Card */}
-                    <div className="bg-[#14293f] text-white p-5 rounded-xl flex flex-col sm:flex-row items-center justify-between gap-4 mt-6">
-                      <div className="space-y-1 text-center sm:text-left">
-                        <span className="text-xs text-slate-300 font-mono uppercase tracking-wider">
-                          Graduation Requirement
-                        </span>
-                        <div className="text-xl font-bold font-grotesk text-white">
-                          Total Degree Credits: <span className="text-[#CCE70B]">60 Credits</span>
+                    <div className="bg-[#14293f] text-white p-6 rounded-xl border border-slate-700/60 shadow-md mt-6">
+                      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+                        <div className="space-y-1">
+                          <span className="text-xs text-slate-300 font-mono uppercase tracking-wider block">
+                            Graduation Requirement
+                          </span>
+                          <div className="text-xl sm:text-2xl font-bold font-grotesk text-white flex items-center gap-2">
+                            <span>Total Degree Credits:</span>
+                            <span className="text-[#CCE70B] font-mono">60 Credits</span>
+                          </div>
                         </div>
-                      </div>
-                      <div className="flex items-center gap-3 text-xs font-mono">
-                        <span className="px-3 py-1.5 bg-white/10 rounded">Sem 1: 15 Cr</span>
-                        <span className="px-3 py-1.5 bg-white/10 rounded">Sem 2: 15 Cr</span>
-                        <span className="px-3 py-1.5 bg-white/10 rounded">Sem 3: 15 Cr</span>
-                        <span className="px-3 py-1.5 bg-white/10 rounded">Sem 4: 15 Cr</span>
+
+                        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 text-xs font-mono">
+                          <div className="px-3.5 py-2 bg-white/10 border border-white/15 rounded-lg text-center">
+                            <span className="text-slate-300 block text-[11px]">Sem 1</span>
+                            <span className="font-bold text-white text-sm">15 Cr</span>
+                          </div>
+                          <div className="px-3.5 py-2 bg-white/10 border border-white/15 rounded-lg text-center">
+                            <span className="text-slate-300 block text-[11px]">Sem 2</span>
+                            <span className="font-bold text-white text-sm">15 Cr</span>
+                          </div>
+                          <div className="px-3.5 py-2 bg-white/10 border border-white/15 rounded-lg text-center">
+                            <span className="text-slate-300 block text-[11px]">Sem 3</span>
+                            <span className="font-bold text-white text-sm">15 Cr</span>
+                          </div>
+                          <div className="px-3.5 py-2 bg-white/10 border border-white/15 rounded-lg text-center">
+                            <span className="text-slate-300 block text-[11px]">Sem 4</span>
+                            <span className="font-bold text-white text-sm">15 Cr</span>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>

@@ -111,14 +111,14 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
                     className="block px-4 py-2.5 text-xs font-semibold text-[#193654] hover:bg-slate-50 hover:text-[#8b1c2e] transition-colors"
                     onClick={() => setSpecDropdownOpen(false)}
                   >
-                    Artificial Intelligence & Machine Learning
+                    AI & ML
                   </Link>
                   <Link
                     href="/specializations/cybersecurity"
                     className="block px-4 py-2.5 text-xs font-semibold text-[#193654] hover:bg-slate-50 hover:text-[#8b1c2e] transition-colors border-t border-slate-100"
                     onClick={() => setSpecDropdownOpen(false)}
                   >
-                    Cybersecurity
+                    Cyber Security
                   </Link>
                   <Link
                     href="/specializations/cloud-computing"
@@ -215,14 +215,14 @@ export default function Header({ onOpenBrochureModal }: HeaderProps) {
                   className="block text-xs font-medium text-slate-700 hover:text-[#193654]"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  • AI & Machine Learning
+                  • AI & ML
                 </Link>
                 <Link
                   href="/specializations/cybersecurity"
                   className="block text-xs font-medium text-slate-700 hover:text-[#193654]"
                   onClick={() => setMobileMenuOpen(false)}
                 >
-                  • Cybersecurity
+                  • Cyber Security
                 </Link>
                 <Link
                   href="/specializations/cloud-computing"

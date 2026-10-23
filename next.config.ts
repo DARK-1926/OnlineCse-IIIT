@@ -53,7 +53,7 @@ const securityHeaders = [
       "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://www.youtube.com https://s.ytimg.com https://maps.googleapis.com https://maps.google.com",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' data: https://fonts.gstatic.com",
-      "img-src 'self' data: blob: https://onlinecse.iiitdwd.ac.in https://images.unsplash.com https://i.ytimg.com https://*.ytimg.com https://*.google.com https://*.googleapis.com https://*.gstatic.com https://maps.gstatic.com",
+      "img-src 'self' data: blob: https://iiitdwd.ac.in https://assets.iiitdwd.ac.in https://onlinecse.iiitdwd.ac.in https://images.unsplash.com https://i.ytimg.com https://*.ytimg.com https://*.google.com https://*.googleapis.com https://*.gstatic.com https://maps.gstatic.com",
       "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://maps.google.com https://maps.googleapis.com",
       "connect-src 'self' https://www.youtube.com https://*.google.com https://*.googleapis.com",
       "frame-ancestors 'none'",
@@ -72,6 +72,16 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "iiitdwd.ac.in",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.iiitdwd.ac.in",
+        pathname: "/**",
+      },
       {
         protocol: "https",
         hostname: "onlinecse.iiitdwd.ac.in",

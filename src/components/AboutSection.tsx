@@ -22,7 +22,7 @@ export default function AboutSection() {
             <div className="absolute -bottom-4 -right-4 bg-[#193654] text-white p-4 rounded-lg shadow-lg hidden sm:block max-w-[200px]">
               <div className="text-xl font-bold text-[#CCE70B] font-grotesk">60 Acres</div>
               <div className="text-xs text-slate-200 mt-0.5 font-roboto">
-                Permanent Campus at Sattur Colony, Dharwad
+                Permanent Campus at Dharwad, Karnataka
               </div>
             </div>
           </div>
@@ -36,24 +36,24 @@ export default function AboutSection() {
               About Indian Institute of Information Technology Dharwad
             </h2>
             <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-              IIIT Dharwad is an Institute of National Importance established in 2015 by the Ministry of Education, Government of India, the Government of Karnataka, and industry partners under a Public-Private Partnership (PPP) model.
+              Indian Institute of Information Technology, Dharwad (IIIT Dharwad), established in 2015 through a unique Public-Private-Partnership by the Ministry of Education, Government of India, in collaboration with the Government of Karnataka and industry partner Keonics, offers world-class education designed to meet global industry demands.
             </p>
             <p className="text-sm text-slate-600 leading-relaxed font-roboto">
-              As an apex technical institute, IIIT Dharwad focuses on education and research in Information Technology and allied computing sciences. The academic ecosystem is tailored to blend deep computational theory with applied problem-solving, supported by distinguished faculty, modern computational testbeds, and an active research culture.
+              As an Institute of National Importance by an Act of Parliament, IIIT Dharwad distinguishes itself by focusing on applying computing technologies to address socially relevant challenges. Its academic philosophy emphasizes creating technological innovations that are meaningful, contextual, and transformative. The M.Tech in CSE is delivered with the same academic rigor, comprehensive coverage, and outcomes as the institute&apos;s on-campus programs.
             </p>
 
             <div className="pt-2 space-y-2 text-xs text-slate-700 font-medium font-roboto">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                <span>Institute of National Importance by Act of Parliament</span>
+                <span>Institute of National Importance established by Act of Parliament (MoE, GoI, GoK, Keonics)</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                <span>Dedicated Centre for Continuing Education for working tech professionals</span>
+                <span>Full-time equivalent M.Tech with PhD eligibility & UGC recognized 60-credit structure</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#8b1c2e]" />
-                <span>On-campus residential immersion with full access to institutional computing labs</span>
+                <span>7-Day hands-on campus immersion on the permanent 60-acre campus in Dharwad, Karnataka</span>
               </div>
             </div>
 

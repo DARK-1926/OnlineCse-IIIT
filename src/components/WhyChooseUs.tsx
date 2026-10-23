@@ -19,44 +19,44 @@ export default function WhyChooseUs() {
       desc: "Earn an authentic Master of Technology degree directly conferred by IIIT Dharwad, an Institute of National Importance under the Ministry of Education, Government of India.",
     },
     {
-      icon: BookOpen,
-      title: "Cutting-Edge Curriculum",
-      desc: "Advance your skills in core and emerging areas of computing through an industry-aligned and research-driven curriculum spanning AI & ML, Cloud, and Cybersecurity.",
-    },
-    {
       icon: Building2,
-      title: "On-Campus Immersion",
-      desc: "Experience residential student life with an exclusive 7-day immersion on the 60-acre IIIT Dharwad campus, interacting with faculty and engaging in advanced lab work.",
+      title: "Institute Autonomy",
+      desc: "An academic Senate comprising distinguished faculty and industry leaders ensures that the curriculum remains cutting-edge and responsive to rapidly evolving industry trends.",
     },
     {
-      icon: Users,
-      title: "World-Class Faculty",
-      desc: "Learn under distinguished doctoral faculty members, active researchers, and accomplished industry practitioners committed to rigorous academic mentorship.",
-    },
-    {
-      icon: Code2,
-      title: "Capstone Project",
-      desc: "Synthesize your academic learning through an extensive two-phase capstone project or industry-sponsored research dissertation supervised by faculty.",
-    },
-    {
-      icon: Network,
-      title: "Professional Networking",
-      desc: "Form long-lasting peer relationships and professional connections with ambitious software engineers, architects, and technical analysts across leading tech hubs.",
-    },
-    {
-      icon: Briefcase,
-      title: "Industry Collaboration",
-      desc: "Benefit from guest lectures, curriculum advisory boards, and joint industry case studies that bring real-world enterprise engineering challenges into the classroom.",
-    },
-    {
-      icon: Laptop,
-      title: "Flexible Hybrid Learning",
-      desc: "Balanced live weekend interactive virtual classes with on-demand recorded session archives and on-campus lab residency, allowing you to learn without disrupting your full-time job.",
+      icon: BookOpen,
+      title: "Outcome-Based Education (OBE)",
+      desc: "Demonstrates that learners are systematically trained to meet concrete architectural and computational objectives, directly matching industry needs.",
     },
     {
       icon: GraduationCap,
-      title: "Official Alumni Status",
-      desc: "Induction into the official IIIT Dharwad Alumni Network, granting lifelong institutional access, library portals, and annual alumni conclaves.",
+      title: "Full-Time Equivalent & PhD Eligibility",
+      desc: "Conferred with complete statutory parity to on-campus M.Tech degrees, making graduates fully eligible for Ph.D. admissions across leading institutions globally.",
+    },
+    {
+      icon: Network,
+      title: "Flexible Multi-Exit Pathways",
+      desc: "Two-year degree with multi-exit and re-entry options (PG Diploma after 30 credits, M.Tech after 60 credits) with a flexible study completion window of up to 4 years.",
+    },
+    {
+      icon: Users,
+      title: "7-Day Campus Immersion",
+      desc: "Engage in an on-campus residency at the 60-acre IIIT Dharwad campus in Dharwad, Karnataka for hands-on lab experiments, faculty mentorship, and peer networking.",
+    },
+    {
+      icon: Laptop,
+      title: "Blended Learning & Attendance Policy",
+      desc: "Structured 75% attendance policy (60% synchronous live weekend classes + 15% asynchronous engagement) with 24/7 access to high-definition recorded archives.",
+    },
+    {
+      icon: Briefcase,
+      title: "Elite Alumni Privileges",
+      desc: "Full privileges as an IIIT Dharwad alumnus, including official institute email ID, library digital portal access, convocation, and lifelong networking.",
+    },
+    {
+      icon: Code2,
+      title: "Capstone Industry Dissertation",
+      desc: "A hands-on, research-driven 30-credit project sequence solving real enterprise engineering challenges to build a standout technical portfolio.",
     },
   ];
 

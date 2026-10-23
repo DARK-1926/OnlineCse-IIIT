@@ -5,23 +5,23 @@ export default function ProgramOverview() {
   const specs = [
     {
       icon: Clock,
-      label: "Course Duration",
-      value: "2 years (Hybrid Mode: Online + Campus Immersion)",
+      label: "Course Duration & Exit",
+      value: "2 Years (Multi-Exit Pathways up to 4 Years)",
     },
     {
       icon: IndianRupee,
       label: "Total Program Fee",
-      value: "₹ 4.425 Lakhs",
+      value: "₹ 4.425 Lakhs (0% Interest EMI Available)",
     },
     {
       icon: Laptop,
-      label: "Program Start Date",
-      value: "1st May 2026",
+      label: "Mode & Attendance Policy",
+      value: "75% Attendance (60% Live + 15% Async)",
     },
     {
       icon: Award,
-      label: "Total Credit",
-      value: "60 Credits (UGC Recognized)",
+      label: "Degree & Recognition",
+      value: "Full-Time M.Tech Equivalent & PhD Eligible",
     },
   ];
 

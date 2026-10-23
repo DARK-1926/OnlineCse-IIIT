@@ -21,12 +21,8 @@ export default function Footer() {
                 className="h-14 lg:h-12 w-auto object-contain object-left"
               />
             </div>
-            <div className="inline-block bg-[#CCE70B]/15 text-[#CCE70B] border border-[#CCE70B]/30 text-[10px] font-semibold px-2.5 py-0.5 rounded font-mono uppercase tracking-wider">
-              Centre for Continuing Education
-            </div>
-
             <p className="text-slate-400 leading-relaxed text-xs">
-              The Centre for Continuing Education offers postgraduate degrees designed for working software engineers, blending academic rigor with cutting-edge industry applications.
+              IIIT Dharwad offers postgraduate degrees designed for working software engineers, blending academic rigor with cutting-edge industry applications.
             </p>
 
             <div className="text-slate-400 text-xs">
@@ -77,12 +73,12 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-300">
               <li>
                 <Link href="/specializations/aiml" className="hover:text-[#CCE70B] transition-colors">
-                  Artificial Intelligence & Machine Learning
+                  AI & ML
                 </Link>
               </li>
               <li>
                 <Link href="/specializations/cybersecurity" className="hover:text-[#CCE70B] transition-colors">
-                  Cybersecurity
+                  Cyber Security
                 </Link>
               </li>
               <li>
@@ -102,7 +98,7 @@ export default function Footer() {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#CCE70B] flex-shrink-0 mt-0.5" />
                 <span className="leading-relaxed">
-                  Indian Institute of Information Technology Dharwad, Ittigatti Rd, near Sattur Colony, Dharwad, Karnataka 580009
+                  Indian Institute of Information Technology Dharwad, Ittigatti Rd, Dharwad, Karnataka 580009
                 </span>
               </div>
               <div className="flex items-center gap-2">

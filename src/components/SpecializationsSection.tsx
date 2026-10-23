@@ -1,33 +1,54 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen, Layers } from "lucide-react";
 
 export default function SpecializationsSection() {
   const tracks = [
     {
       id: "aiml",
-      title: "Artificial Intelligence & Machine Learning",
+      title: "AI & ML",
+      badge: "Artificial Intelligence & Machine Learning",
       image: "/images/aiml_specialization.jpg",
-      desc: "Gain deep technical mastery in mathematical foundations, neural networks, natural language processing, computer vision, and generative models with applied PyTorch / TensorFlow laboratories.",
+      desc: "Gain deep technical mastery in mathematical foundations, deep neural architectures, natural language processing, computer vision, and generative models with applied PyTorch laboratories.",
       link: "/specializations/aiml",
-      highlights: ["Deep Learning & Transformers", "Natural Language Processing (LLMs)", "Computer Vision & Visual Intelligence"],
-    },
-    {
-      id: "cloud-computing",
-      title: "Cloud Computing",
-      image: "/images/cloud_specialization.jpg",
-      desc: "Master distributed systems, consensus algorithms (Paxos, Raft), Kubernetes orchestration, microservices architectures, and enterprise DevOps automation pipelines.",
-      link: "/specializations/cloud-computing",
-      highlights: ["Distributed Systems & Consensus", "Cloud-Native & Kubernetes (K8s)", "Microservices, gRPC & Kafka"],
+      coreCourses: [
+        "Deep Learning & Neural Architectures",
+        "Generative AI & Large Language Models (LLMs)",
+        "Speech and Natural Language Processing",
+        "Computer Vision & Visual Intelligence",
+        "Introduction to AI/ML (CS651)",
+      ],
     },
     {
       id: "cybersecurity",
       title: "Cyber Security",
+      badge: "Information Security & Cyber Defense",
       image: "/images/cyber_specialization.jpg",
       desc: "Develop advanced expertise in modern cryptography, zero-trust network defenses, penetration testing, threat detection, digital forensics, and cloud infrastructure security.",
       link: "/specializations/cybersecurity",
-      highlights: ["Applied Cryptography & PKI", "Penetration Testing & Red Teaming", "Zero Trust & Cloud Defenses"],
+      coreCourses: [
+        "Computer System Security (OS & Memory Hardening)",
+        "Security in Cloud Computing & Multi-Tenant Defense",
+        "AI for Cybersecurity (Threat & Malware Detection)",
+        "Applied Cryptography & Network Security Protocols",
+        "Introduction to Cybersecurity (CS652)",
+      ],
+    },
+    {
+      id: "cloud-computing",
+      title: "Cloud Computing",
+      badge: "Cloud Systems & Distributed Infrastructure",
+      image: "/images/cloud_specialization.jpg",
+      desc: "Master distributed systems, consensus algorithms (Paxos, Raft), Kubernetes orchestration, microservices architectures, and enterprise DevOps automation pipelines.",
+      link: "/specializations/cloud-computing",
+      coreCourses: [
+        "Cloud Computing Architecture & Virtualization",
+        "Containerization & Kubernetes (K8s) Orchestration",
+        "Cloud Native Systems & Microservices Architecture",
+        "Distributed Storage Systems & Consensus Protocols",
+        "Introduction to Cloud Computing (CS653)",
+      ],
     },
   ];
 
@@ -37,9 +58,6 @@ export default function SpecializationsSection() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-xs font-bold text-[#8b1c2e] uppercase font-mono tracking-widest block mb-1">
-            // SPECIALIZATIONS
-          </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-[#193654] font-grotesk">
             Specializations Offered
           </h2>
@@ -49,7 +67,7 @@ export default function SpecializationsSection() {
         </div>
 
         {/* 3 Custom Image Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
           {tracks.map((track) => (
             <div
               key={track.id}
@@ -63,30 +81,38 @@ export default function SpecializationsSection() {
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#14293f]/80 via-transparent to-transparent"></div>
-                  <div className="absolute bottom-3 left-4 text-xs font-bold text-white font-mono uppercase tracking-wider bg-[#193654]/80 px-2 py-0.5 rounded backdrop-blur-xs">
-                    60 Credits • 4 Terms
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#14293f]/85 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-3 left-4 text-xs font-bold text-white font-mono uppercase tracking-wider bg-[#193654]/85 px-2.5 py-1 rounded backdrop-blur-xs">
+                    60 Credits • 4 Semesters
                   </div>
                 </div>
 
-                <div className="p-6 space-y-3">
-                  <h3 className="text-lg font-bold text-[#193654] group-hover:text-[#8b1c2e] transition-colors font-grotesk">
-                    {track.title}
-                  </h3>
+                <div className="p-6 space-y-3.5">
+                  <div>
+                    <h3 className="text-xl font-bold text-[#193654] group-hover:text-[#8b1c2e] transition-colors font-grotesk">
+                      {track.title}
+                    </h3>
+                    <span className="text-[11px] text-slate-400 font-medium font-roboto block mt-0.5">
+                      {track.badge}
+                    </span>
+                  </div>
+
                   <p className="text-xs text-slate-600 leading-relaxed font-roboto">
                     {track.desc}
                   </p>
 
-                  <div className="pt-2 border-t border-slate-100 space-y-1.5">
-                    <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block font-mono">
+                  <div className="pt-3 border-t border-slate-100 space-y-2">
+                    <span className="text-[11px] font-bold text-[#193654] uppercase tracking-wider block font-mono">
                       Core Syllabus Modules:
                     </span>
-                    {track.highlights.map((h, i) => (
-                      <div key={i} className="flex items-center gap-2 text-xs text-slate-700 font-medium font-roboto">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e]"></span>
-                        <span>{h}</span>
-                      </div>
-                    ))}
+                    <div className="space-y-1.5">
+                      {track.coreCourses.map((c, i) => (
+                        <div key={i} className="flex items-start gap-2 text-xs text-slate-700 font-medium font-roboto">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] mt-1.5 flex-shrink-0"></span>
+                          <span>{c}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -94,7 +120,7 @@ export default function SpecializationsSection() {
               <div className="p-6 pt-0">
                 <Link
                   href={track.link}
-                  className="w-full py-2.5 px-4 rounded border-2 border-[#193654] text-[#193654] hover:bg-[#193654] hover:text-white font-bold text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 group-hover:border-[#193654]"
+                  className="w-full py-2.5 px-4 rounded border-2 border-[#193654] text-[#193654] hover:bg-[#193654] hover:text-white font-bold text-xs uppercase tracking-wider transition-colors flex items-center justify-center gap-1.5 group-hover:border-[#193654] font-grotesk cursor-pointer"
                 >
                   <span>Explore Specialization</span>
                   <ArrowRight className="w-4 h-4" />
@@ -102,6 +128,29 @@ export default function SpecializationsSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Common Program-Wide Core Foundations Note */}
+        <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-2xs">
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <BookOpen className="w-4 h-4 text-[#8b1c2e]" />
+                <span className="text-xs font-bold text-[#193654] uppercase tracking-wider font-mono">
+                  Common Discipline Core Foundations (All CSE Students)
+                </span>
+              </div>
+              <p className="text-xs text-slate-600 font-roboto">
+                Every M.Tech candidate completes rigorous foundations in <strong>Applied Mathematics for CS (CS601)</strong>, <strong>Advanced Data Structures & Algorithms (CS602)</strong>, <strong>Programming Paradigms Lab (CS603)</strong>, <strong>Advanced Computing Lab (CS604)</strong>, and an extensive <strong>30-Credit Project Dissertation Sequence (Projects I to IV)</strong>.
+              </p>
+            </div>
+            <Link
+              href="/curriculum"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#193654] hover:text-[#8b1c2e] uppercase tracking-wider font-grotesk flex-shrink-0"
+            >
+              <span>View Full 60-Credit Structure →</span>
+            </Link>
+          </div>
         </div>
 
       </div>

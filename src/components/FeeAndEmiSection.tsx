@@ -80,7 +80,7 @@ export default function FeeAndEmiSection() {
                   <span>Semester Attendance Requirement (Mandatory 75%)</span>
                 </div>
                 <p className="leading-relaxed text-[11px] text-amber-900/90 pl-5.5">
-                  Students are required to maintain a minimum of 75% attendance each semester — 60% through synchronous live weekend lectures and 15% through asynchronous recorded sessions and labs.
+                  Students are required to maintain a minimum of 75% attendance each semester — 60% through synchronous live hybrid lectures and 15% through asynchronous recorded sessions and labs.
                 </p>
               </div>
             </div>

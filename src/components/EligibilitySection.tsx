@@ -98,7 +98,7 @@ export default function EligibilitySection() {
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
-                <span>Weekend interactive classes allow study alongside full-time careers</span>
+                <span>Hybrid interactive classes allow study alongside full-time careers</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />

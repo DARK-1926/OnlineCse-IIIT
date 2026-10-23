@@ -17,7 +17,7 @@ export default function SpecializationsSection() {
         "Generative AI & Large Language Models (LLMs)",
         "Speech and Natural Language Processing",
         "Computer Vision & Visual Intelligence",
-        "Introduction to AI/ML (CS651)",
+        "Introduction to AI/ML",
       ],
     },
     {
@@ -32,7 +32,7 @@ export default function SpecializationsSection() {
         "Security in Cloud Computing & Multi-Tenant Defense",
         "AI for Cybersecurity (Threat & Malware Detection)",
         "Applied Cryptography & Network Security Protocols",
-        "Introduction to Cybersecurity (CS652)",
+        "Introduction to Cybersecurity",
       ],
     },
     {
@@ -47,7 +47,7 @@ export default function SpecializationsSection() {
         "Containerization & Kubernetes (K8s) Orchestration",
         "Cloud Native Systems & Microservices Architecture",
         "Distributed Storage Systems & Consensus Protocols",
-        "Introduction to Cloud Computing (CS653)",
+        "Introduction to Cloud Computing",
       ],
     },
   ];
@@ -131,9 +131,9 @@ export default function SpecializationsSection() {
         </div>
 
         {/* Common Program-Wide Core Foundations Note */}
-        <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-2xs">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-            <div className="space-y-1">
+        <div className="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-2xs">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+            <div className="space-y-3 flex-1">
               <div className="flex items-center gap-2">
                 <BookOpen className="w-4 h-4 text-[#8b1c2e]" />
                 <span className="text-xs font-bold text-[#193654] uppercase tracking-wider font-mono">
@@ -141,12 +141,34 @@ export default function SpecializationsSection() {
                 </span>
               </div>
               <p className="text-xs text-slate-600 font-roboto">
-                Every M.Tech candidate completes rigorous foundations in <strong>Applied Mathematics for CS (CS601)</strong>, <strong>Advanced Data Structures & Algorithms (CS602)</strong>, <strong>Programming Paradigms Lab (CS603)</strong>, <strong>Advanced Computing Lab (CS604)</strong>, and an extensive <strong>30-Credit Project Dissertation Sequence (Projects I to IV)</strong>.
+                Every M.Tech candidate completes rigorous foundations across core computer science domains:
               </p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-700 font-roboto pt-1">
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] flex-shrink-0"></span>
+                  <span><strong>Applied Mathematics for CS</strong> (CS601)</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] flex-shrink-0"></span>
+                  <span><strong>Advanced Data Structures & Algorithms</strong> (CS602)</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] flex-shrink-0"></span>
+                  <span><strong>Programming Paradigms Lab</strong> (CS603)</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] flex-shrink-0"></span>
+                  <span><strong>Advanced Computing Lab</strong> (CS604)</span>
+                </li>
+                <li className="flex items-center gap-2 sm:col-span-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#8b1c2e] flex-shrink-0"></span>
+                  <span><strong>30-Credit Project Dissertation Sequence</strong> (Projects I to IV)</span>
+                </li>
+              </ul>
             </div>
             <Link
               href="/curriculum"
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#193654] hover:text-[#8b1c2e] uppercase tracking-wider font-grotesk flex-shrink-0"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg border border-[#193654] text-[#193654] hover:bg-[#193654] hover:text-white text-xs font-bold uppercase tracking-wider font-grotesk transition-colors flex-shrink-0"
             >
               <span>View Full 60-Credit Structure →</span>
             </Link>

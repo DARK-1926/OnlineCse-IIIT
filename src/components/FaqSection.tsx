@@ -28,7 +28,7 @@ export default function FaqSection() {
 
   return (
     <section id="faqs" className="py-16 sm:py-20 bg-[#f9f9ff] border-b border-slate-200">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-10">
@@ -40,8 +40,8 @@ export default function FaqSection() {
           </p>
         </div>
 
-        {/* Category Pills */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-8">
+        {/* Category Pills - One Single Line with Horizontal Scroll on Small Screens */}
+        <div className="flex items-center justify-start md:justify-center gap-2 mb-8 overflow-x-auto pb-2 flex-nowrap whitespace-nowrap">
           {categories.map((cat) => (
             <button
               key={cat}
@@ -50,7 +50,7 @@ export default function FaqSection() {
                 setSelectedCategory(cat);
                 setOpenId(null);
               }}
-              className={`px-3.5 py-1.5 rounded-full text-xs font-semibold font-grotesk transition-all cursor-pointer ${
+              className={`px-4 py-2 rounded-full text-xs font-semibold font-grotesk transition-all cursor-pointer flex-shrink-0 ${
                 selectedCategory === cat
                   ? "bg-[#193654] text-[#CCE70B] shadow-sm"
                   : "bg-white text-slate-600 hover:bg-slate-100 border border-slate-200"
@@ -61,8 +61,8 @@ export default function FaqSection() {
           ))}
         </div>
 
-        {/* Numbered Accordion List */}
-        <div className="space-y-3">
+        {/* Numbered Accordion List - 2 Column Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-start">
           {filteredFaqs.map((faq, idx) => {
             const isOpen = openId === faq.id;
             return (
@@ -73,23 +73,23 @@ export default function FaqSection() {
                 <button
                   type="button"
                   onClick={() => toggleFaq(faq.id)}
-                  className="w-full text-left p-4 sm:p-5 flex items-center justify-between gap-4 hover:bg-slate-50/70 transition-colors cursor-pointer"
+                  className="w-full text-left p-4 sm:p-5 flex items-start justify-between gap-3 hover:bg-slate-50/70 transition-colors cursor-pointer"
                 >
-                  <div className="flex items-start sm:items-center gap-3 sm:gap-4">
-                    <span className="text-xs font-bold text-[#193654] bg-[#f9f9ff] border border-slate-200 px-2.5 py-1 rounded-md font-mono flex-shrink-0 mt-0.5 sm:mt-0">
+                  <div className="flex items-start gap-3">
+                    <span className="text-xs font-bold text-[#193654] bg-[#f9f9ff] border border-slate-200 px-2 py-0.5 rounded-md font-mono flex-shrink-0 mt-0.5">
                       {(idx + 1).toString().padStart(2, "0")}
                     </span>
                     <div>
-                      <span className="font-semibold text-sm sm:text-base text-[#193654] font-grotesk block">
+                      <span className="font-semibold text-sm sm:text-base text-[#193654] font-grotesk block leading-snug">
                         {faq.question}
                       </span>
-                      <span className="text-[10px] text-slate-400 font-mono uppercase tracking-wider block mt-0.5">
+                      <span className="text-[10px] text-slate-400 font-mono uppercase tracking-wider block mt-1">
                         {faq.category}
                       </span>
                     </div>
                   </div>
                   <ChevronDown
-                    className={`w-5 h-5 text-slate-500 flex-shrink-0 transition-transform duration-200 ${
+                    className={`w-5 h-5 text-slate-500 flex-shrink-0 transition-transform duration-200 mt-0.5 ${
                       isOpen ? "rotate-180 text-[#8b1c2e]" : ""
                     }`}
                   />

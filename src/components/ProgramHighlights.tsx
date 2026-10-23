@@ -37,7 +37,7 @@ export default function ProgramHighlights() {
     {
       icon: Laptop,
       title: "Structured Attendance Policy",
-      desc: "Mandatory 75% attendance (60% live synchronous lectures on weekends + 15% asynchronous recorded coursework completion) with 24/7 digital LMS access.",
+      desc: "Mandatory 75% attendance (60% live synchronous hybrid lectures + 15% asynchronous recorded coursework completion) with 24/7 digital LMS access.",
     },
     {
       icon: Network,

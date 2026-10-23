@@ -46,7 +46,7 @@ export default function WhyChooseUs() {
     {
       icon: Laptop,
       title: "Blended Learning & Attendance Policy",
-      desc: "Structured 75% attendance policy (60% synchronous live weekend classes + 15% asynchronous engagement) with 24/7 access to high-definition recorded archives.",
+      desc: "Structured 75% attendance policy (60% synchronous live interactive classes + 15% asynchronous engagement) with 24/7 access to high-definition recorded archives.",
     },
     {
       icon: Briefcase,

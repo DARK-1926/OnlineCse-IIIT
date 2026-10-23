@@ -42,11 +42,13 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.15] tracking-tight font-grotesk">
                 M.Tech in CSE
               </h1>
-              <p className="text-sm sm:text-base font-medium text-[#CCE70B] font-roboto">
-                Specializations in AI & ML, Cyber Security and Cloud Computing
-              </p>
+              <div className="inline-block py-1.5 px-3.5 rounded-lg bg-[#CCE70B]/15 border border-[#CCE70B]/40">
+                <p className="text-base sm:text-lg md:text-xl font-bold text-[#CCE70B] tracking-wide font-grotesk">
+                  Specializations in AI & ML, Cyber Security and Cloud Computing
+                </p>
+              </div>
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-roboto pt-1 max-w-2xl">
-                A two-year Master of Technology degree offered in flexible hybrid mode, tailored for working software engineers and technology leaders. Build deep systems expertise through live weekend faculty sessions and an on-campus laboratory residency at IIIT Dharwad.
+                A two-year Master of Technology degree offered in flexible hybrid mode, tailored for working software engineers and technology leaders. Build deep systems expertise through live interactive faculty sessions and an on-campus laboratory residency at IIIT Dharwad.
               </p>
             </div>
 
@@ -63,7 +65,7 @@ export default function HeroSection({ onOpenBrochureModal }: HeroSectionProps) {
                 <div className="text-xs text-slate-300 mt-0.5 whitespace-nowrap">Total Fee</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-white font-grotesk">Weekend</div>
+                <div className="text-2xl font-bold text-white font-grotesk">Hybrid</div>
                 <div className="text-xs text-slate-300 mt-0.5">Live Interactive Lectures</div>
               </div>
               <div>

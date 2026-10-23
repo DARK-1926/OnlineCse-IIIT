@@ -23,16 +23,16 @@ export default function HomePage() {
       <HeroSection />
       <AnnouncementTicker />
       <ProgramOverview />
-      <AboutSection />
       <SpecializationsSection />
       <ProgramHighlights />
+      <WhyChooseUs />
+      <AboutSection />
       <ToolsMastered />
       <CampusImmersionSection />
       <FeeAndEmiSection />
       <DegreeCertificateSection />
       <FacultySection />
       <EligibilitySection />
-      <WhyChooseUs />
       <CareerPossibilities />
       <SkillsMastered />
       <DirectorMessage />
